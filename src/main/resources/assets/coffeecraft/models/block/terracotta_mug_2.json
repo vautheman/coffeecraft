@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/mug2",
+  "textures": {
+    "all": "coffeecraft:block/terracotta",
+    "particle": "coffeecraft:block/terracotta",
+    "1": "coffeecraft:block/terracotta"
+  },
+  "render_type": "cutout_mipped"
+}

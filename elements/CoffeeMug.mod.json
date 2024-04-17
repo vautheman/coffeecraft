@@ -1,0 +1,61 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlackMug"
+      },
+      {
+        "value": "CUSTOM:BlueMug"
+      },
+      {
+        "value": "CUSTOM:BrownMug"
+      },
+      {
+        "value": "CUSTOM:CyanMug"
+      },
+      {
+        "value": "CUSTOM:GrayMug"
+      },
+      {
+        "value": "CUSTOM:GreenMug"
+      },
+      {
+        "value": "CUSTOM:LightBlueMug"
+      },
+      {
+        "value": "CUSTOM:LightGrayMug"
+      },
+      {
+        "value": "CUSTOM:LimeMug"
+      },
+      {
+        "value": "CUSTOM:MagentaMug"
+      },
+      {
+        "value": "CUSTOM:OrangeMug"
+      },
+      {
+        "value": "CUSTOM:PinkMug"
+      },
+      {
+        "value": "CUSTOM:PurpleMug"
+      },
+      {
+        "value": "CUSTOM:RedMug"
+      },
+      {
+        "value": "CUSTOM:YellowMug"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "coffee_mug",
+    "namespace": "minecraft"
+  }
+}

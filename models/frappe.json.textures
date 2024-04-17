@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "light_blue_stained_glass",
+        "16": "coffeemilk",
+        "18": "ice"
+      },
+      "name": "default"
+    }
+  }
+}

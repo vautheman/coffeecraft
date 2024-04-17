@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "coffeecraft:block/coffee_tree_step3_bottom",
+    "particle": "coffeecraft:block/coffee_tree_step3_bottom"
+  },
+  "render_type": "cutout"
+}

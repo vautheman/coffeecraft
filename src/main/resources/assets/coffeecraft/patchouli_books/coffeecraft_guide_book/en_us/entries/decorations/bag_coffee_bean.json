@@ -1,0 +1,16 @@
+{
+    "name": "Bag Coffee Bean",
+    "icon": "coffeecraft:bag_coffee_bean",
+    "category": "coffeecraft:decoration",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The coffee bag stores a large quantity of coffee in a single block. This can be useful for transport or simply as interior decoration."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:bag_coffee_bean_craft",
+            "recipe2": "coffeecraft:bag_coffee_bean_craft_2"
+        }
+    ]
+}

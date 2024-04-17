@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CoffeeMakerBlackEmpty"
+      },
+      {
+        "value": "CUSTOM:CoffeeMakerWhiteEmpty"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "tag_coffee_maker",
+    "namespace": "minecraft"
+  }
+}

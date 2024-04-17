@@ -1,0 +1,16 @@
+{
+  "parent": "coffeecraft:custom/roaster",
+  "textures": {
+    "all": "coffeecraft:block/copper_block_light",
+    "particle": "coffeecraft:block/copper_block_light",
+    "1": "coffeecraft:block/barrel_top",
+    "2": "coffeecraft:block/barrel_side",
+    "3": "coffeecraft:block/barrel_bottom",
+    "4": "coffeecraft:block/black_concrete",
+    "5": "coffeecraft:block/iron_block",
+    "6": "coffeecraft:block/copper_block_light",
+    "7": "coffeecraft:block/dark_oak_planks",
+    "8": "coffeecraft:block/copper_block"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/mug",
+  "textures": {
+    "all": "coffeecraft:block/magenta_concrete",
+    "particle": "coffeecraft:block/magenta_concrete",
+    "0": "coffeecraft:block/magenta_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

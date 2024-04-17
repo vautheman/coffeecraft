@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/coffeemakerempty",
+  "textures": {
+    "all": "coffeecraft:block/texturecoffeemakerblackempty",
+    "particle": "coffeecraft:block/texturecoffeemakerblackempty",
+    "14": "coffeecraft:block/texturecoffeemakerblackempty"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:block/expresso_bloc"
+    },
+    "facing=east": {
+      "model": "coffeecraft:block/expresso_bloc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:block/expresso_bloc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:block/expresso_bloc",
+      "y": 270
+    }
+  }
+}

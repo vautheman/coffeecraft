@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coffeecraft:block/coffee_bean_bag_bottom",
+    "up": "coffeecraft:block/coffee_bean_bag_top",
+    "north": "coffeecraft:block/coffee_bean_bag_side_tied",
+    "east": "coffeecraft:block/coffee_bean_bag_side",
+    "south": "coffeecraft:block/coffee_bean_bag_side",
+    "west": "coffeecraft:block/coffee_bean_bag_side",
+    "particle": "coffeecraft:block/coffee_bean_bag_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "honey_block_side",
+        "1": "yellow_concrete",
+        "2": "dark_oak_planks",
+        "3": "texturecoffee"
+      },
+      "name": "default"
+    }
+  }
+}

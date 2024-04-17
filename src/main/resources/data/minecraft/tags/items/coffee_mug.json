@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "coffeecraft:black_mug",
+    "coffeecraft:blue_mug",
+    "coffeecraft:brown_mug",
+    "coffeecraft:cyan_mug",
+    "coffeecraft:gray_mug",
+    "coffeecraft:green_mug",
+    "coffeecraft:light_blue_mug",
+    "coffeecraft:light_gray_mug",
+    "coffeecraft:lime_mug",
+    "coffeecraft:magenta_mug",
+    "coffeecraft:orange_mug",
+    "coffeecraft:pink_mug",
+    "coffeecraft:purple_mug",
+    "coffeecraft:red_mug",
+    "coffeecraft:yellow_mug"
+  ]
+}

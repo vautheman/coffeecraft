@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:block/bag_coffee_powder"
+    },
+    "facing=east": {
+      "model": "coffeecraft:block/bag_coffee_powder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:block/bag_coffee_powder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:block/bag_coffee_powder",
+      "y": 270
+    }
+  }
+}

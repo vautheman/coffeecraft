@@ -1,0 +1,12 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "coffeecraft:coffee_powder"
+    }
+  ],
+  "book": "coffeecraft:coffeecraft_guide_book"
+}

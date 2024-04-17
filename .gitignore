@@ -1,0 +1,16 @@
+#FILES FOR GRADLE
+#=======================
+.gradle
+/build/
+**/build/
+
+#FILES FOR MCREATOR DEV WORKSPACE
+#===============================
+/jdk/
+/logs
+
+#SYSTEM AND JAVA FILES
+#=====================
+Thumbs.db
+debug.log
+hs_err_pid*

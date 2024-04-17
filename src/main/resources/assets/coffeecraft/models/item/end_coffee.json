@@ -1,0 +1,8 @@
+{
+  "parent": "coffeecraft:custom/end-coffee",
+  "textures": {
+    "1": "coffeecraft:block/end_portal_frame_eye",
+    "2": "coffeecraft:block/black_concrete",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

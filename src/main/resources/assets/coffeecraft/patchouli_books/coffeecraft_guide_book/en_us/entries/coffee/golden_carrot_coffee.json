@@ -1,0 +1,19 @@
+{
+    "name": "Golden Carrot Coffee",
+    "icon": "coffeecraft:coffee_carrot",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Discover the rejuvenating power of our Golden Carrot Coffee, where the vibrant essence of golden carrots breathes new life into every sip. Experience a revitalizing blend that invigorates the senses, offering a refreshing twist on the classic coffee experience."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Golden Carrot Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:golden_carrot",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_carrot"
+        }
+    ]
+}

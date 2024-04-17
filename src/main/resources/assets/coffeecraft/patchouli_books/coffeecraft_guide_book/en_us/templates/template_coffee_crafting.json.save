@@ -1,0 +1,49 @@
+{
+    "components": [
+        {
+            "type": "patchouli:text",
+            "text": "#text"
+        },
+        {
+            "type": "patchouli:image",
+            "image": "coffeecraft:textures/screens/item-slot-book.png",
+            "texture_width": 100,
+            "texture_height": 20,
+            "width": 100,
+            "height": 20,
+            "y": 18
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item0",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 2
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item1",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 22
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item2",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 42
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#result",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 82
+        }
+    ]
+}

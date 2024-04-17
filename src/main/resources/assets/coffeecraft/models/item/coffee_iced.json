@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/iced-coffee",
+  "textures": {
+    "4": "coffeecraft:block/texturecoffee",
+    "5": "coffeecraft:block/ice",
+    "9": "coffeecraft:block/light_blue_stained_glass",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

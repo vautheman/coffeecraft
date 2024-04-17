@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "coffee5.png",
+    "width": 16,
+    "height": 32,
+    "title": "Coffee Morning",
+    "author": "CoffeeCraft"
+  }
+}

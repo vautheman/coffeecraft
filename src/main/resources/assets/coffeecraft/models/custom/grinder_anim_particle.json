@@ -1,0 +1,6 @@
+{
+  "parent": "coffeecraft:displaysettings/grinder_geckolib.item",
+  "textures": {
+    "particle": "coffeecraft:block/texture_grinder"
+  }
+}

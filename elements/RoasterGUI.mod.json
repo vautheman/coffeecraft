@@ -1,0 +1,289 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 32,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "roastergui.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 6
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 175,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 175,
+          "y": 87
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "RoasterRemoveItemSlot"
+          },
+          "x": 235,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feu1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay1"
+          },
+          "x": 175,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feu2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay2"
+          },
+          "x": 175,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feu3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay3"
+          },
+          "x": 175,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feu4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay4"
+          },
+          "x": 175,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feu5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay5"
+          },
+          "x": 175,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "roue1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RoueDisplay1"
+          },
+          "x": 207,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "roue2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RoueDisplay2"
+          },
+          "x": 209,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay1"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay2"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay3"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay4"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay5"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay6"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay7"
+          },
+          "x": 203,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay8"
+          },
+          "x": 203,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay9"
+          },
+          "x": 203,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay10"
+          },
+          "x": 203,
+          "y": 72
+        }
+      }
+    ],
+    "onTick": {
+      "name": "RoasterGUIPendantQueCeGUIEstOuvertParTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

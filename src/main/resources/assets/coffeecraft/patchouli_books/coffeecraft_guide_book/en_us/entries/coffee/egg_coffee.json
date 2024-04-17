@@ -1,0 +1,19 @@
+{
+    "name": "Egg Coffee",
+    "icon": "coffeecraft:coffee_egg",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Delight in the unique presentation of our Egg Coffee, featuring a velvety espresso topped with a frothy raw egg. Experience the intriguing combination of rich coffee flavors and the creamy texture of the egg, creating a decadent and unforgettable beverage."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Egg Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:egg",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_egg"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "coffee_mug_lungo",
+    "customModelName": "cappuccino-coffee:default",
+    "customProperties": {},
+    "states": [],
+    "name": "Cappuccino Coffee",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:CoffeeCraft"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "§9Instant Health I"
+      ]
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "CoffeeCappuccinoPose"
+    },
+    "onFinishUsingItem": {
+      "name": "CoffeeCappuccinoEffect"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "isFood": true,
+    "nutritionalValue": 6,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": "CUSTOM:WhiteMug"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

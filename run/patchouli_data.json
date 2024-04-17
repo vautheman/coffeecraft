@@ -1,0 +1,50 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "coffeecraft:coffeecraft_guide_book": {
+      "viewedEntries": [
+        "coffeecraft:test/test_entry",
+        "coffeecraft:coffee/expresso",
+        "coffeecraft:coffee/lungo",
+        "coffeecraft:coffee/cappuccino",
+        "coffeecraft:coffee/end_coffee",
+        "coffeecraft:coffee/egg_coffee",
+        "coffeecraft:coffee/mocha",
+        "coffeecraft:coffee/sweat_lungo",
+        "coffeecraft:coffee/nether_coffee",
+        "coffeecraft:coffee/iced_coffee",
+        "coffeecraft:coffee/golden_carrot_coffee",
+        "coffeecraft:coffee/sweat_expresso",
+        "coffeecraft:coffee/honey_coffee",
+        "coffeecraft:machines/coffee_maker",
+        "coffeecraft:decorations/bag_coffee_bean",
+        "coffeecraft:decorations/bag_coffee_roasted",
+        "coffeecraft:decorations/bag_coffee_powder",
+        "coffeecraft:decorations/coffee_sign",
+        "coffeecraft:outfit/barista",
+        "coffeecraft:crops/coffee_bean",
+        "coffeecraft:crops/coffee_plant",
+        "coffeecraft:crops/coffee_roasted",
+        "coffeecraft:machines/roaster",
+        "coffeecraft:machines/grinder",
+        "coffeecraft:crops/coffee_cherry",
+        "coffeecraft:coffee/sweet_expresso",
+        "coffeecraft:coffee/sweet_lungo",
+        "coffeecraft:crops/coffee_powder",
+        "coffeecraft:outfit/barista_small",
+        "coffeecraft:decorations/coffee_box",
+        "coffeecraft:decorations/coffee_mug"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "coffee:coffeecraft_guide_book": {
+      "viewedEntries": [
+        "coffee:test/test_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

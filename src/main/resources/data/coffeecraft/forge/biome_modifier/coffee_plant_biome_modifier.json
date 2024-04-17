@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "jungle",
+  "features": "coffeecraft:coffee_plant",
+  "step": "vegetal_decoration"
+}

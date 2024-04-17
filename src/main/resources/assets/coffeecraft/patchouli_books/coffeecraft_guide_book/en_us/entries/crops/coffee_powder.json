@@ -1,0 +1,11 @@
+{
+    "name": "Coffee Powder",
+    "icon": "coffeecraft:coffee_powder",
+    "category": "coffeecraft:crops",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Coffee powder is the final stage in the processing of coffee beans. It's with this powder that you can make your first coffees."
+        }
+    ]
+}

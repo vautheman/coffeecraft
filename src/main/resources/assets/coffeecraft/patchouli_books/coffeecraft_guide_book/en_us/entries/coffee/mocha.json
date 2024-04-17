@@ -1,0 +1,19 @@
+{
+    "name": "Mocha",
+    "icon": "coffeecraft:coffee_mocha",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Experience the decadent fusion of rich chocolate and bold espresso in our Mocha coffee. Delight your senses with the indulgent combination of smooth espresso, creamy milk, and luscious chocolate, creating a luxurious and satisfying beverage."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Mocha",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:milk_bucket",
+            "item2": "minecraft:cocoa_beans",
+            "result": "coffeecraft:coffee_mocha"
+        }
+    ]
+}

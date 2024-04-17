@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dark_oak_planks",
+        "1": "copper_block_light",
+        "2": "oak_planks",
+        "3": "chiseled_stone_bricks"
+      },
+      "name": "default"
+    }
+  }
+}

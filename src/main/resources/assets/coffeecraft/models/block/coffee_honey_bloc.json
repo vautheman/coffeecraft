@@ -1,0 +1,12 @@
+{
+  "parent": "coffeecraft:custom/honey-coffee",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "0": "coffeecraft:block/honey_block_side",
+    "1": "coffeecraft:block/yellow_concrete",
+    "2": "coffeecraft:block/dark_oak_planks",
+    "3": "coffeecraft:block/texturecoffee"
+  },
+  "render_type": "translucent"
+}

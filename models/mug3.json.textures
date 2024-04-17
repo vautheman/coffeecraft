@@ -1,0 +1,106 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "terracotta"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "3": "white_concrete"
+      },
+      "name": "white"
+    },
+    "black": {
+      "map": {
+        "3": "black_concrete"
+      },
+      "name": "black"
+    },
+    "blue": {
+      "map": {
+        "3": "blue_concrete"
+      },
+      "name": "blue"
+    },
+    "brown": {
+      "map": {
+        "3": "brown_concrete"
+      },
+      "name": "brown"
+    },
+    "cyan": {
+      "map": {
+        "3": "cyan_concrete"
+      },
+      "name": "cyan"
+    },
+    "gray": {
+      "map": {
+        "3": "gray_concrete"
+      },
+      "name": "gray"
+    },
+    "green": {
+      "map": {
+        "3": "green_concrete"
+      },
+      "name": "green"
+    },
+    "light_blue": {
+      "map": {
+        "3": "light_blue_concrete"
+      },
+      "name": "light_blue"
+    },
+    "light_gray": {
+      "map": {
+        "3": "light_gray_concrete"
+      },
+      "name": "light_gray"
+    },
+    "lime": {
+      "map": {
+        "3": "lime_concrete"
+      },
+      "name": "lime"
+    },
+    "magenta": {
+      "map": {
+        "3": "magenta_concrete"
+      },
+      "name": "magenta"
+    },
+    "orange": {
+      "map": {
+        "3": "orange_concrete"
+      },
+      "name": "orange"
+    },
+    "pink": {
+      "map": {
+        "3": "pink_concrete"
+      },
+      "name": "pink"
+    },
+    "purple": {
+      "map": {
+        "3": "purple_concrete"
+      },
+      "name": "purple"
+    },
+    "red": {
+      "map": {
+        "3": "red_concrete"
+      },
+      "name": "red"
+    },
+    "yellow": {
+      "map": {
+        "3": "yellow_concrete"
+      },
+      "name": "yellow"
+    }
+  }
+}

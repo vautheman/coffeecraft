@@ -1,0 +1,65 @@
+{
+    "components": [
+        {
+            "type": "patchouli:text",
+            "text": "#text"
+        },
+        {
+            "type": "patchouli:image",
+            "image": "coffeecraft:textures/screens/coffee_maker_gui_book-short.png",
+            "texture_width": 115,
+            "texture_height": 77,
+            "width": 115,
+            "height": 77,
+            "y": 18
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item0",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 8
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item1",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 23.5
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item2",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 39.5
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#result",
+            "framed": false,
+            "link_recipe": true,
+            "y": 65,
+            "x": 84
+        },
+        {
+            "type": "patchouli:item",
+            "item": "coffeecraft:white_mug",
+            "framed": false,
+            "link_recipe": true,
+            "y": 65,
+            "x": 28
+        },
+        {
+            "type": "patchouli:item",
+            "item": "coffeecraft:coffee_maker_black_empty",
+            "framed": false,
+            "link_recipe": true,
+            "y": 100,
+            "x": 84
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "coffeecraft:custom/mugshort",
+  "textures": {
+    "1": "coffeecraft:block/white_concrete",
+    "16": "coffeecraft:block/texturecoffee",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

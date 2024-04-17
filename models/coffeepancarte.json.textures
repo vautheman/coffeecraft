@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texture-pancarte",
+        "2": "dark_oak_planks"
+      },
+      "name": "default"
+    }
+  }
+}

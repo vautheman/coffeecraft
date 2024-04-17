@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coffeecraft:block/coffee_tree_step6_top"
+  }
+}

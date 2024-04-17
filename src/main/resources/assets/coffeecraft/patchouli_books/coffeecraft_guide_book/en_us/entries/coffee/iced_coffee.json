@@ -1,0 +1,19 @@
+{
+    "name": "Iced Coffee",
+    "icon": "coffeecraft:coffee_iced",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Chill out with our refreshing Iced Coffee, a delightful cold brew served over ice cubes. Indulge in the crisp, invigorating flavor as the ice cubes slowly melt, creating a cool and revitalizing beverage perfect for any time of day."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Iced Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:ice",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_iced"
+        }
+    ]
+}

@@ -1,0 +1,395 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 31,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "grindergui.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 5
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 153,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 171,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 189,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 153,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 171,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 189,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 153,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 171,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 189,
+          "y": 87
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "RoasterRemoveItemSlot"
+          },
+          "x": 251,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay1"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay2"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay3"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay4"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay5"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay6"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay7"
+          },
+          "x": 216,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay8"
+          },
+          "x": 216,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay9"
+          },
+          "x": 216,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay10"
+          },
+          "x": 216,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grinder1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GrinderDisplay1"
+          },
+          "x": 219,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grinder2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GrinderDisplay2"
+          },
+          "x": 219,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grinder3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GrinderDisplay3"
+          },
+          "x": 219,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grinder4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GrinderDisplay4"
+          },
+          "x": 219,
+          "y": 89
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_grindbtn",
+          "image": "grind-btn.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "GrinderButtonGrindProcedure"
+          },
+          "displayCondition": {
+            "name": "CoffeePowderRecipe"
+          },
+          "x": 246,
+          "y": 52
+        }
+      }
+    ],
+    "onTick": {
+      "name": "GrinderGUIPendantQueCeGUIEstOuvertParTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

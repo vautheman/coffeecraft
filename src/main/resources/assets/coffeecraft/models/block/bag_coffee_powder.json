@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coffeecraft:block/coffee_powder_pallet_bottom",
+    "up": "coffeecraft:block/coffee_powder_pallet_top",
+    "north": "coffeecraft:block/coffee_powder_pallet_side",
+    "east": "coffeecraft:block/coffee_powder_pallet_side",
+    "south": "coffeecraft:block/coffee_powder_pallet_side",
+    "west": "coffeecraft:block/coffee_powder_pallet_side",
+    "particle": "coffeecraft:block/coffee_powder_pallet_bottom"
+  },
+  "render_type": "solid"
+}

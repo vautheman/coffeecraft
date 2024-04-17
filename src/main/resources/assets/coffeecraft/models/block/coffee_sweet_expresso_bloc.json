@@ -1,0 +1,10 @@
+{
+  "parent": "coffeecraft:custom/mugshort",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "1": "coffeecraft:block/gray",
+    "16": "coffeecraft:block/texturesweatcoffee"
+  },
+  "render_type": "cutout_mipped"
+}

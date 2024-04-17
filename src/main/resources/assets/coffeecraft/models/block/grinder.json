@@ -1,0 +1,12 @@
+{
+  "parent": "coffeecraft:custom/grinder",
+  "textures": {
+    "all": "coffeecraft:block/oak_planks",
+    "particle": "coffeecraft:block/oak_planks",
+    "0": "coffeecraft:block/dark_oak_planks",
+    "1": "coffeecraft:block/copper_block_light",
+    "2": "coffeecraft:block/oak_planks",
+    "3": "coffeecraft:block/chiseled_stone_bricks"
+  },
+  "render_type": "solid"
+}

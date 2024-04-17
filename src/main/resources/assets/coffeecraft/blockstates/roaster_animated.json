@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:custom/roaster_animated_particle"
+    },
+    "facing=east": {
+      "model": "coffeecraft:custom/roaster_animated_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:custom/roaster_animated_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:custom/roaster_animated_particle",
+      "y": 270
+    }
+  }
+}

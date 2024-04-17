@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texture-poussin",
+        "2": "texturecoffeeegg",
+        "3": "jaune-oeuf",
+        "4": "white_concrete-egg"
+      },
+      "name": "default"
+    }
+  }
+}

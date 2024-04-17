@@ -1,0 +1,19 @@
+{
+    "name": "Honey Coffee",
+    "icon": "coffeecraft:coffee_honey",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Savor the unique sweetness of our Honey coffee, where the natural essence of honey adds a delightful touch to every sip. Indulge in the harmonious balance of rich coffee flavor and subtle honey undertones, creating a deliciously aromatic and satisfying beverage."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Honey Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:honey_bottle",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_honey"
+        }
+    ]
+}

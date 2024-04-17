@@ -1,0 +1,7 @@
+{
+  "parent": "coffeecraft:custom/baristasmall",
+  "textures": {
+    "0": "coffeecraft:block/texture_leather",
+    "particle": "coffeecraft:item/baristatexture_body"
+  }
+}

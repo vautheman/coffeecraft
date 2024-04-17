@@ -1,0 +1,15 @@
+{
+    "name": "Coffee Bean",
+    "icon": "coffeecraft:coffee_bean",
+    "category": "coffeecraft:crops",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Coffee beans (unroasted) are obtained by shelling a coffee cherry at any craft table."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:coffee_extraction"
+        }
+    ]
+}

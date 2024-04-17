@@ -1,0 +1,19 @@
+{
+    "name": "Cappuccino",
+    "icon": "coffeecraft:coffee_cappuccino",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Indulge in the creamy elegance of our Cappuccino, where velvety steamed milk perfectly complements a rich shot of espresso. Delight in the harmonious balance of flavors, topped with a frothy layer of milk foam, creating a luxurious and comforting coffee experience."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Cappuccino",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:milk_bucket",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_cappuccino"
+        }
+    ]
+}

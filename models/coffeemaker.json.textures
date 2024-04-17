@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "texturecoffeemakerblack"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "11": "texturecoffeemakerwhite"
+      },
+      "name": "white"
+    }
+  }
+}

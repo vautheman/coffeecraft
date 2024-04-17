@@ -1,0 +1,10 @@
+{
+  "parent": "coffeecraft:custom/egg-coffee",
+  "textures": {
+    "1": "coffeecraft:block/texture-poussin",
+    "2": "coffeecraft:block/texturecoffeeegg",
+    "3": "coffeecraft:block/jaune-oeuf",
+    "4": "coffeecraft:block/white_concrete-egg",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

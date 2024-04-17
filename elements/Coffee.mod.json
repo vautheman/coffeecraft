@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "coffee1.png",
+    "width": 16,
+    "height": 16,
+    "title": "Coffee",
+    "author": "CoffeeCraft"
+  }
+}

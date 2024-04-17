@@ -1,0 +1,7 @@
+{
+  "parent": "coffeecraft:custom/croissant",
+  "textures": {
+    "0": "coffeecraft:block/texturecroissant",
+    "particle": "coffeecraft:item/croissant"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:block/coffee_pancarte"
+    },
+    "facing=east": {
+      "model": "coffeecraft:block/coffee_pancarte",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:block/coffee_pancarte",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:block/coffee_pancarte",
+      "y": 270
+    }
+  }
+}

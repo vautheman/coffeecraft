@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_concrete"
+    },
+    "b": {
+      "item": "minecraft:hopper"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:barrel"
+    },
+    "e": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "coffeecraft:roaster_animated",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Coffee Sign",
+    "icon": "coffeecraft:coffee_pancarte",
+    "category": "coffeecraft:decoration",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A small chalkboard that you can place at the entrance to your coffee lounge. It contains the map of your store."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:coffee_pancarte_craft"
+        }
+    ]
+}

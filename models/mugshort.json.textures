@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "white_concrete",
+        "16": "texturecoffee"
+      },
+      "name": "default"
+    },
+    "sweat": {
+      "map": {
+        "1": "gray",
+        "16": "texturesweatcoffee"
+      },
+      "name": "sweat"
+    }
+  }
+}

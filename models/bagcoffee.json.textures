@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jute",
+        "1": "jute-side",
+        "2": "texturecoffee"
+      },
+      "name": "default"
+    }
+  }
+}

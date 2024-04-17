@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:block/pink_mug"
+    },
+    "facing=east": {
+      "model": "coffeecraft:block/pink_mug",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:block/pink_mug",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:block/pink_mug",
+      "y": 270
+    }
+  }
+}

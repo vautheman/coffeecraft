@@ -1,0 +1,10 @@
+{
+  "parent": "coffeecraft:custom/coffeepancarte",
+  "textures": {
+    "all": "coffeecraft:block/texture-pancarte",
+    "particle": "coffeecraft:block/texture-pancarte",
+    "1": "coffeecraft:block/texture-pancarte",
+    "2": "coffeecraft:block/dark_oak_planks"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "coffeecraft:block/coffee_plant"
+    },
+    "half=lower": {
+      "model": "coffeecraft:block/coffee_plant_bottom"
+    }
+  }
+}

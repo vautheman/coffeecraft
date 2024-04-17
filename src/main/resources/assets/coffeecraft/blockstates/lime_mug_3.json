@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coffeecraft:block/lime_mug_3"
+    },
+    "facing=east": {
+      "model": "coffeecraft:block/lime_mug_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coffeecraft:block/lime_mug_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coffeecraft:block/lime_mug_3",
+      "y": 270
+    }
+  }
+}

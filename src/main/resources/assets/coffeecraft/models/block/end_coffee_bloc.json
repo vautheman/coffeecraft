@@ -1,0 +1,10 @@
+{
+  "parent": "coffeecraft:custom/end-coffee",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "1": "coffeecraft:block/end_portal_frame_eye",
+    "2": "coffeecraft:block/black_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

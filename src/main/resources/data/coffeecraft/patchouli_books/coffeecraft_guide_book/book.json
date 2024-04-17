@@ -1,0 +1,8 @@
+{
+    "name": "CoffeeCraft - Guide",
+    "landing_text": "This guide is designed to help you on your coffee-growing adventure. It covers the basic concepts and crafts involved in making coffee.",
+    "creative_tab": "coffeecraft:coffee_craft",
+    "use_resource_pack": true,
+    "show_progress": false,
+    "use_blocky_font": true
+}

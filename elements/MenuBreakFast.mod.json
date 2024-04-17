@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "menubreakfast.png",
+    "width": 16,
+    "height": 32,
+    "title": "Menu Break Fast",
+    "author": "CoffeeCraft"
+  }
+}

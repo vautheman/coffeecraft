@@ -1,0 +1,19 @@
+{
+    "name": "Sweet Expresso",
+    "icon": "coffeecraft:coffee_sweet_expresso",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Savor the delightful fusion of bold espresso with a hint of sweetness in our Sweet Espresso. Experience the harmonious balance of rich, robust flavors complemented by subtle notes of caramel or chocolate, creating a luxurious coffee indulgence."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Sweet Expresso",
+            "item0": "coffeecraft:coffee_powder",
+            "item1": "minecraft:sugar",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_sweet_expresso"
+        }
+    ]
+}

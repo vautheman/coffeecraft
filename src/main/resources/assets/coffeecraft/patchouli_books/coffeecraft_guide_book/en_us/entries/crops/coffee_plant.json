@@ -1,0 +1,16 @@
+{
+    "name": "Coffee Plant",
+    "icon": "coffeecraft:coffee_plant_stage_1",
+    "category": "coffeecraft:crops",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Coffee plants are found in jungle biomes. They're hard to find, but if you do, you can be sure there are others in the area."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["coffeecraft:textures/screens/coffeeplant.png"],
+            "border": true
+        }
+    ]
+}

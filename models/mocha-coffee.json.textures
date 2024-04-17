@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texturecoffee",
+        "2": "beige",
+        "3": "milk-cocoa"
+      },
+      "name": "default"
+    }
+  }
+}

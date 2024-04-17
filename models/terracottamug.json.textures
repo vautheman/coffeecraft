@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "terracotta"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "0": "iron_block"
+      },
+      "name": "white"
+    }
+  }
+}

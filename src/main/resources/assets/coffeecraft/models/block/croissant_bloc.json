@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/croissant",
+  "textures": {
+    "all": "coffeecraft:block/texturecroissant",
+    "particle": "coffeecraft:block/texturecroissant",
+    "0": "coffeecraft:block/texturecroissant"
+  },
+  "render_type": "cutout_mipped"
+}

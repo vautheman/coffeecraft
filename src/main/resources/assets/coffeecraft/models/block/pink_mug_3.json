@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/mug3",
+  "textures": {
+    "all": "coffeecraft:block/pink_concrete",
+    "particle": "coffeecraft:block/pink_concrete",
+    "3": "coffeecraft:block/pink_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

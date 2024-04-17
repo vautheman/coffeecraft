@@ -1,0 +1,15 @@
+{
+    "name": "Coffee Box",
+    "icon": "coffeecraft:coffee_box_bloc",
+    "category": "coffeecraft:decoration",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The coffee chest allows you to store 6 stacks of 64 coffee powders. It's an excellent decorative object, but unlike coffee bags, it can't be transported."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:coffee_box_craft"
+        }
+    ]
+}

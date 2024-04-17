@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/nether-coffee",
+  "textures": {
+    "1": "coffeecraft:block/obsidian",
+    "2": "coffeecraft:block/nether_wart_block",
+    "3": "coffeecraft:block/nether_wart_stage0",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

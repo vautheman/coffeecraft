@@ -1,0 +1,6 @@
+{
+  "parent": "coffeecraft:displaysettings/roaster_geckolib.item",
+  "textures": {
+    "particle": "coffeecraft:block/texture_roaster_geckolib"
+  }
+}

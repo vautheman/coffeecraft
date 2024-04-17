@@ -1,0 +1,19 @@
+{
+    "name": "Sweet Lungo",
+    "icon": "coffeecraft:coffee_sweet_lungo",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Elevate your coffee experience with our Sweet Lungo, a delightful blend of extended espresso infused with subtle sweetness. Enjoy the harmonious marriage of smooth, mellow flavors with a hint of caramel or chocolate undertones, creating a satisfying and indulgent cup."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Sweet Lungo",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:sugar",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_sweet_lungo"
+        }
+    ]
+}

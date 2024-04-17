@@ -1,0 +1,50 @@
+{
+  "drink_coffee": {
+    "sounds": [
+      {
+        "name": "coffeecraft:sound-effect",
+        "stream": false
+      }
+    ]
+  },
+  "roaster": {
+    "sounds": [
+      {
+        "name": "coffeecraft:roaster",
+        "stream": false
+      }
+    ]
+  },
+  "coffee_sound_effect": {
+    "sounds": [
+      {
+        "name": "coffeecraft:coffee-sound-effect",
+        "stream": false
+      }
+    ]
+  },
+  "grinder": {
+    "sounds": [
+      {
+        "name": "coffeecraft:grinder-mono",
+        "stream": false
+      }
+    ]
+  },
+  "coffee_coffre_open": {
+    "sounds": [
+      {
+        "name": "coffeecraft:coffeecoffreopen",
+        "stream": false
+      }
+    ]
+  },
+  "coffee_bag": {
+    "sounds": [
+      {
+        "name": "coffeecraft:coffee_bag",
+        "stream": false
+      }
+    ]
+  }
+}

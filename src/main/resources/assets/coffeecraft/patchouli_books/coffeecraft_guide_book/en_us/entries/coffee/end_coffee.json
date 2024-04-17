@@ -1,0 +1,19 @@
+{
+    "name": "End Coffee",
+    "icon": "coffeecraft:end_coffee",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Embark on a journey to the mystical realm of the End with our End Coffee, a brew inspired by the ethereal landscapes of End. Experience the enchanting blend of dark, complex flavors that capture the essence of this otherworldly dimension, offering a transcendent coffee experience unlike any other."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft End Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:ender_pearl",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:end_coffee"
+        }
+    ]
+}

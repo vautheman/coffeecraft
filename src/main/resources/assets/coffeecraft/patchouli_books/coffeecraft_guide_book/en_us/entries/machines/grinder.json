@@ -1,0 +1,15 @@
+{
+    "name": "Grinder",
+    "icon": "coffeecraft:grinder",
+    "category": "coffeecraft:machine",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The grinder is used to grind your beans for use in the coffee maker."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:grinder_craft"
+        }
+    ]
+}

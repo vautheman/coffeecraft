@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "coffee2.png",
+    "width": 64,
+    "height": 64,
+    "title": "Coffee Housse",
+    "author": "CoffeeCraft"
+  }
+}

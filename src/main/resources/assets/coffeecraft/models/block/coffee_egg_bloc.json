@@ -1,0 +1,12 @@
+{
+  "parent": "coffeecraft:custom/egg-coffee",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "1": "coffeecraft:block/texture-poussin",
+    "2": "coffeecraft:block/texturecoffeeegg",
+    "3": "coffeecraft:block/jaune-oeuf",
+    "4": "coffeecraft:block/white_concrete-egg"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "texturecoffee",
+        "5": "ice",
+        "9": "light_blue_stained_glass"
+      },
+      "name": "default"
+    }
+  }
+}

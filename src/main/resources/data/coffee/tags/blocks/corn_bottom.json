@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "coffeecraft:coffee_plant_stage_0",
+    "coffeecraft:coffee_plant_stage_1",
+    "coffeecraft:coffee_plant_stage_2",
+    "coffeecraft:coffe_plant_stage_3_bottom",
+    "coffeecraft:coffee_plant_stage_4_bottom",
+    "coffeecraft:coffee_plant_stage_5_bottom",
+    "coffeecraft:coffee_plant_stage_6_bottom"
+  ]
+}

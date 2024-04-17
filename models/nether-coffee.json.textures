@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "obsidian",
+        "2": "nether_wart_block",
+        "3": "nether_wart_stage0"
+      },
+      "name": "default"
+    }
+  }
+}

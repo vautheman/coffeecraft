@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "tag": "planks"
+    },
+    "b": {
+      "item": "minecraft:black_concrete"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "coffeecraft:coffee_pancarte",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/coffeecoffre",
+  "textures": {
+    "all": "coffeecraft:block/texturecoffeecoffre",
+    "particle": "coffeecraft:block/texturecoffeecoffre",
+    "4": "coffeecraft:block/texturecoffeecoffre"
+  },
+  "render_type": "cutout_mipped"
+}

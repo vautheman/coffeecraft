@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "barrel_top",
+        "2": "barrel_side",
+        "3": "barrel_bottom",
+        "4": "black_concrete",
+        "5": "iron_block",
+        "6": "copper_block_light",
+        "7": "dark_oak_planks",
+        "8": "copper_block"
+      },
+      "name": "default"
+    }
+  }
+}

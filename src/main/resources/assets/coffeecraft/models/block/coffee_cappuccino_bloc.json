@@ -1,0 +1,11 @@
+{
+  "parent": "coffeecraft:custom/cappuccino-coffee",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "1": "coffeecraft:block/texturecoffee",
+    "2": "coffeecraft:block/beige",
+    "3": "coffeecraft:block/milk-cocoa"
+  },
+  "render_type": "cutout_mipped"
+}

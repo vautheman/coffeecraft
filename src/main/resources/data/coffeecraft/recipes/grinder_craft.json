@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "tag": "slabs"
+    },
+    "c": {
+      "item": "minecraft:flint"
+    },
+    "d": {
+      "tag": "planks"
+    }
+  },
+  "result": {
+    "item": "coffeecraft:grinder_anim",
+    "count": 1
+  }
+}

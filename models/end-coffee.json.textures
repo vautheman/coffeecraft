@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "end_portal_frame_eye",
+        "2": "black_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Nether Coffee",
+    "icon": "coffeecraft:coffee_nether",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Experience the fiery depths of flavor with our Nether Coffee, brewed with intense heat and infused with nethers warts for a devilishly bold kick. Delight in the infernal fusion of smoky richness and fiery spice, igniting your taste buds with every sip of this daring and unforgettable brew."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Nether Coffee",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:nether_wart",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:coffee_nether"
+        }
+    ]
+}

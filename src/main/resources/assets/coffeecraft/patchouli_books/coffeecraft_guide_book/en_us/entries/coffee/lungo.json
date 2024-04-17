@@ -1,0 +1,19 @@
+{
+    "name": "Lungo",
+    "icon": "coffeecraft:long_mug",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Indulge in the smooth and nuanced flavors of our Lungo, an extended shot of espresso brewed with a higher volume of water. Delight in its balanced taste, offering a milder intensity while still maintaining the rich essence of freshly ground coffee beans."
+        },
+        {
+            "type": "coffeecraft:template_coffee_crafting",
+            "text": "Craft Lungo",
+            "item0": "coffeecraft:coffee_powder#2",
+            "item1": "minecraft:air",
+            "item2": "minecraft:air",
+            "result": "coffeecraft:long_mug"
+        }
+    ]
+}

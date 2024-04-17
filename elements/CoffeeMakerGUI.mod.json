@@ -1,0 +1,282 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 164,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 30,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "coffeemakerguiv2.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 4
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_guicoffeemakerbutton1",
+          "image": "guicoffeemakerbutton1.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ProcedureCoffeeCraft"
+          },
+          "displayCondition": {
+            "name": "ShortDisplay"
+          },
+          "x": 235,
+          "y": 40
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_guicoffeemakerbutton2",
+          "image": "guicoffeemakerbutton2.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ProcedureCoffeeCraftLong"
+          },
+          "displayCondition": {
+            "name": "LongDisplay"
+          },
+          "x": 257,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:coffee_bucket"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CoffeePowder"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 159,
+          "y": 37
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 37
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 195,
+          "y": 37
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ProcedureRemoveItemSlot"
+          },
+          "x": 245,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay0"
+          },
+          "x": 151,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay1"
+          },
+          "x": 151,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay2"
+          },
+          "x": 151,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay3"
+          },
+          "x": 151,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay4"
+          },
+          "x": 151,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FeuDisplay1"
+          },
+          "x": 250,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay3"
+          },
+          "x": 248,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay5"
+          },
+          "x": 248,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay7"
+          },
+          "x": 248,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay9"
+          },
+          "x": 248,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bean5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlecheDisplay10"
+          },
+          "x": 248,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

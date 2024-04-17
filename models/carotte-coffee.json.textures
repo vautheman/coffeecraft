@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texturecoffeecarrot",
+        "2": "gold_block",
+        "3": "feuille-carrot",
+        "4": "orange_concrete",
+        "5": "texturegoldline"
+      },
+      "name": "default"
+    }
+  }
+}

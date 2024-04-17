@@ -1,0 +1,16 @@
+{
+    "name": "Coffee Maker",
+    "icon": "coffeecraft:coffee_maker_black",
+    "category": "coffeecraft:machine",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The coffee maker is the essential tool for making your own coffees. To operate, the reservoir must contain a sufficient quantity of water for the coffees you want to make. The coffeemaker is available in a range of colors."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:coffee_maker_black_craft",
+            "recipe2": "coffeecraft:coffee_maker_white_craft"
+        }
+    ]
+}

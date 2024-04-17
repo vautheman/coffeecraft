@@ -1,0 +1,15 @@
+{
+    "name": "Barista Outfit Large",
+    "icon": "coffeecraft:barista_chestplate",
+    "category": "coffeecraft:outfit",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The large barista apron will prevent you from staining during your preparations."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "coffeecraft:barista_craft"
+        }
+    ]
+}

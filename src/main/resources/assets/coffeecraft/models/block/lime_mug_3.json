@@ -1,0 +1,9 @@
+{
+  "parent": "coffeecraft:custom/mug3",
+  "textures": {
+    "all": "coffeecraft:block/lime_concrete",
+    "particle": "coffeecraft:block/lime_concrete",
+    "3": "coffeecraft:block/lime_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

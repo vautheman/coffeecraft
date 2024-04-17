@@ -1,0 +1,19 @@
+{
+    "name": "Expresso",
+    "icon": "coffeecraft:short_mug",
+    "category": "coffeecraft:coffee",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Experience the essence of pure coffee with our Espresso, a concentrated shot of bold flavor and rich aroma. Sip slowly and savor the intense, velvety taste that defines this beloved classic."
+        },
+        {
+            "type": "coffeecraft:template_coffee_maker_short",
+            "text": "Craft expresso",
+            "item0": "coffeecraft:coffee_powder",
+            "item1": "coffeecraft:coffee_powder",
+            "item2": "coffeecraft:coffee_powder",
+            "result": "coffeecraft:short_mug"
+        }
+    ]
+}

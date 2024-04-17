@@ -1,0 +1,13 @@
+{
+  "parent": "coffeecraft:custom/carotte-coffee",
+  "textures": {
+    "all": "coffeecraft:block/coffee_mug_lungo",
+    "particle": "coffeecraft:block/coffee_mug_lungo",
+    "1": "coffeecraft:block/texturecoffeecarrot",
+    "2": "coffeecraft:block/gold_block",
+    "3": "coffeecraft:block/feuille-carrot",
+    "4": "coffeecraft:block/orange_concrete",
+    "5": "coffeecraft:block/texturegoldline"
+  },
+  "render_type": "cutout_mipped"
+}

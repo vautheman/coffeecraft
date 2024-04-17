@@ -1,0 +1,50 @@
+{
+    "components": [
+        {
+            "type": "patchouli:text",
+            "text": "#text"
+        },
+        {
+            "type": "patchouli:image",
+            "image": "coffeecraft:textures/screens/roaster_gui_book.png",
+            "texture_width": 90,
+            "texture_height": 59,
+            "width": 90,
+            "height": 59,
+            "y": 18,
+            "x": 10
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item0",
+            "framed": false,
+            "link_recipe": true,
+            "y": 20,
+            "x": 12
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#item1",
+            "framed": false,
+            "link_recipe": true,
+            "y": 58,
+            "x": 12
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#result",
+            "framed": false,
+            "link_recipe": true,
+            "y": 40,
+            "x": 82
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine",
+            "framed": false,
+            "link_recipe": true,
+            "y": 60,
+            "x": 82
+        }
+    ]
+}

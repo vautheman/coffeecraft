@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CoffeePlantStage0"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage1"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage2"
+      },
+      {
+        "value": "CUSTOM:CoffePlantStage3Bottom"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage4Bottom"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage5Bottom"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage6Bottom"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "corn_bottom",
+    "namespace": "coffee"
+  }
+}

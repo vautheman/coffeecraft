@@ -1,0 +1,6136 @@
+{
+  "mod_elements": [
+    {
+      "name": "CoffeeCherry",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cherry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_cherry.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeCherryItem.java"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeeBean",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_bean.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeBeanItem.java"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeeExtraction",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_extraction",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/coffee_extraction.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeeBeanRoasted",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_bean_roasted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeBeanRoastedItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_bean_roasted.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "TerracottaMug",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/TerracottaMugBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/terracotta_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/terracotta_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/terracotta_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CraftCoffeeMug",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_coffee_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/craft_coffee_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlastCoffeeMug",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_coffee_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/blast_coffee_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CoffeePowder",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeePowderItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_powder.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "ProcedureCoffeeCraft",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_coffee_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProcedureCoffeeCraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/RecipeCoffee"
+    },
+    {
+      "name": "CoffeeMugLungoLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mug_lungo_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMugLungoLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee"
+    },
+    {
+      "name": "CoffeeMakerLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMakerLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProgressBarDisplay0",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_bar_display_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProgressBarDisplay0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProgressBarDisplay1",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_bar_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProgressBarDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProgressBarDisplay2",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_bar_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProgressBarDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProgressBarDisplay3",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_bar_display_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProgressBarDisplay3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProgressBarDisplay4",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_bar_display_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProgressBarDisplay4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "CoffeeMakerQuandLeBlocEstAjoute",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_quand_le_bloc_est_ajoute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMakerQuandLeBlocEstAjouteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "CoffeeMakerGUI",
+      "type": "gui",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/world/inventory/CoffeeMakerGUIMenu.java",
+          "src/main/java/net/mcreator/coffeecraft/network/CoffeeMakerGUISlotMessage.java",
+          "src/main/java/net/mcreator/coffeecraft/network/CoffeeMakerGUIButtonMessage.java",
+          "src/main/java/net/mcreator/coffeecraft/client/gui/CoffeeMakerGUIScreen.java"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "ShortDisplay",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_display",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ShortDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "LongDisplay",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_display",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/LongDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "ProcedureCoffeeCraftLong",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_coffee_craft_long",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProcedureCoffeeCraftLongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/RecipeCoffee"
+    },
+    {
+      "name": "Grinder",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/grinder.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/GrinderBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/block/grinder.json",
+          "src/main/java/net/mcreator/coffeecraft/block/GrinderBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/grinder.json"
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "Roaster",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/entity/RoasterBlockEntity.java",
+          "src/main/java/net/mcreator/coffeecraft/block/RoasterBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/roaster.json",
+          "src/main/resources/assets/coffeecraft/blockstates/roaster.json",
+          "src/main/resources/assets/coffeecraft/models/block/roaster.json"
+        ]
+      },
+      "path": "~/Roaster"
+    },
+    {
+      "name": "RoasterCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/roaster_craft.json"
+        ]
+      },
+      "path": "~/Roaster"
+    },
+    {
+      "name": "GrinderCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/grinder_craft.json"
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "RoasterGUI",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/world/inventory/RoasterGUIMenu.java",
+          "src/main/java/net/mcreator/coffeecraft/client/gui/RoasterGUIScreen.java",
+          "src/main/java/net/mcreator/coffeecraft/network/RoasterGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "RoasterProcedure",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoasterProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/Procedures"
+    },
+    {
+      "name": "RoasterQuandLeBlocEstAjoute",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_quand_le_bloc_est_ajoute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoasterQuandLeBlocEstAjouteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/Procedures"
+    },
+    {
+      "name": "RoasterGUIPendantQueCeGUIEstOuvertParTick",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_gui_pendant_que_ce_gui_est_ouvert_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoasterGUIPendantQueCeGUIEstOuvertParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Roaster/Procedures"
+    },
+    {
+      "name": "FeuDisplay1",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FeuDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FeuDisplay2",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FeuDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FeuDisplay3",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_display_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FeuDisplay3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FeuDisplay4",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_display_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FeuDisplay4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FeuDisplay5",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_display_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FeuDisplay5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay1",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay2",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay3",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay4",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay5",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay6",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay7",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay8",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay9",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "FlecheDisplay10",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleche_display_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/FlecheDisplay10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "RoueDisplay1",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roue_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoueDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "RoueDisplay2",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roue_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoueDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "ProcedureParticleSmoke",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_particle_smoke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProcedureParticleSmokeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/GUI"
+    },
+    {
+      "name": "GrinderTakenSlotProcedure",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_taken_slot_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderTakenSlotProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderGuiClosedProcedure",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui_closed_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderGuiClosedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderGUI",
+      "type": "gui",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/client/gui/GrinderGUIScreen.java",
+          "src/main/java/net/mcreator/coffeecraft/network/GrinderGUISlotMessage.java",
+          "src/main/java/net/mcreator/coffeecraft/world/inventory/GrinderGUIMenu.java",
+          "src/main/java/net/mcreator/coffeecraft/network/GrinderGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "CoffeePowderRecipe",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_powder_recipe",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePowderRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "CoffeePlantStage0",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_0.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_0.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage0BlockEntity.java",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage0Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_0.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeeCherryLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cherry_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeCherryLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage1",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage1BlockEntity.java",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage1Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_1.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_1.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_1.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage0MiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_0_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantStage0MiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage0QuandLeBlocEstAjoute",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_0_quand_le_bloc_est_ajoute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantStage0QuandLeBlocEstAjouteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "MugSmoke",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug_smoke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/MugSmokeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CoffeeMakerMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMakerMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/RecipeCoffee"
+    },
+    {
+      "name": "CoffeeMakerSmokeProcedure",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_smoke_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMakerSmokeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "TerracottaMug2",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/TerracottaMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/terracotta_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/terracotta_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/terracotta_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "TerracottaMug3",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/terracotta_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/terracotta_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/TerracottaMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/terracotta_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "TerracottaMugLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_mug_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/TerracottaMugLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "WhiteMug",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/white_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/WhiteMugBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/white_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/white_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "WhiteMug2",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/white_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/white_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/white_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/WhiteMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "WhiteMug3",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/WhiteMug3Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/white_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/white_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/white_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlackMug",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/black_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/black_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BlackMugBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/black_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlackMug2",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/BlackMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/black_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/black_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/black_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlackMug3",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/black_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/black_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BlackMug3Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/black_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlueMug",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/blue_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/blue_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BlueMugBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/blue_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlueMug2",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/blue_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/blue_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/blue_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BlueMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlueMug3",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/BlueMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/blue_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/blue_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/blue_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BrownMug",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/brown_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/brown_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/brown_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BrownMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BrownMug2",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/brown_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/brown_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/brown_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BrownMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BrownMug3",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/brown_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/brown_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BrownMug3Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/brown_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CyanMug",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/cyan_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CyanMugBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/cyan_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/cyan_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CyanMug2",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/cyan_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/cyan_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/cyan_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CyanMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CyanMug3",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/cyan_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/cyan_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CyanMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/cyan_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GrayMug",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/GrayMugBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/gray_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/gray_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/gray_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GrayMug2",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/gray_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/gray_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/gray_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/GrayMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GrayMug3",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/gray_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/GrayMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/gray_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/gray_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GreenMug",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/green_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/green_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/green_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/GreenMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GreenMug2",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/green_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/green_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/green_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/GreenMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GreenMug3",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/GreenMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/green_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/green_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/green_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightBlueMug",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/light_blue_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/light_blue_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/light_blue_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LightBlueMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightBlueMug2",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/light_blue_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/light_blue_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LightBlueMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/light_blue_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightBlueMug3",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/light_blue_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/light_blue_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/light_blue_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LightBlueMug3Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightGrayMug",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/light_gray_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/light_gray_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/light_gray_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LightGrayMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightGrayMug2",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/LightGrayMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/light_gray_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/light_gray_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/light_gray_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightGrayMug3",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/light_gray_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/light_gray_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LightGrayMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/light_gray_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LimeMug",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/lime_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/lime_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/lime_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LimeMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LimeMug2",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/lime_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/lime_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/lime_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LimeMug2Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LimeMug3",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/LimeMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/lime_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/lime_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/lime_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "MagentaMug",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/magenta_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/magenta_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/magenta_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/MagentaMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "MagentaMug2",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/magenta_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/magenta_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/MagentaMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/magenta_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "MagentaMug3",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/magenta_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/MagentaMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/block/magenta_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/magenta_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "OrangeMug",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/orange_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/orange_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/orange_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/OrangeMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "OrangeMug2",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/orange_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/OrangeMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/orange_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/orange_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "OrangeMug3",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/orange_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/orange_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/OrangeMug3Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/orange_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PinkMug",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/PinkMugBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/pink_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/pink_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/pink_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PinkMug2",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/pink_mug_2.json",
+          "src/main/resources/assets/coffeecraft/blockstates/pink_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/PinkMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/pink_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PinkMug3",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/pink_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/pink_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/pink_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/PinkMug3Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PurpleMug",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/purple_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/purple_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/PurpleMugBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/purple_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PurpleMug2",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/purple_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/PurpleMug2Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/purple_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/purple_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PurpleMug3",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/PurpleMug3Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/purple_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/purple_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/purple_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "RedMug",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/red_mug.json",
+          "src/main/resources/assets/coffeecraft/blockstates/red_mug.json",
+          "src/main/resources/assets/coffeecraft/models/block/red_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/RedMugBlock.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "RedMug2",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/red_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/RedMug2Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/red_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/red_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "RedMug3",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/red_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/block/red_mug_3.json",
+          "src/main/resources/assets/coffeecraft/blockstates/red_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/RedMug3Block.java"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "YellowMug",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/yellow_mug.json",
+          "src/main/resources/assets/coffeecraft/models/item/yellow_mug.json",
+          "src/main/java/net/mcreator/coffeecraft/block/YellowMugBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/yellow_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "YellowMug2",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_mug_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/yellow_mug_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/YellowMug2Block.java",
+          "src/main/resources/assets/coffeecraft/models/item/yellow_mug_2.json",
+          "src/main/resources/assets/coffeecraft/models/block/yellow_mug_2.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "YellowMug3",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_mug_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/yellow_mug_3.json",
+          "src/main/resources/assets/coffeecraft/models/item/yellow_mug_3.json",
+          "src/main/java/net/mcreator/coffeecraft/block/YellowMug3Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/yellow_mug_3.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlackMugCraft",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/black_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BlueMugCraft",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/blue_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "BrownMugCraft",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/brown_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CyanMugCraft",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/cyan_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GrayMugCraft",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/gray_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "GreenMugCraft",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/green_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightBlueMugCraft",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/light_blue_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LightGrayMugCraft",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/light_gray_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "LimeMugCraft",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/lime_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "MagentaMugCraft",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/magenta_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "OrangeMugCraft",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/orange_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PinkMugCraft",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/pink_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "PurpleMugCraft",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/purple_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "RedMugCraft",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/red_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "YellowMugCraft",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_mug_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/yellow_mug_craft.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "ShortMug",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/ShortMugItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/short_mug.json"
+        ]
+      },
+      "path": "~/Coffee/Expresso"
+    },
+    {
+      "name": "LongMug",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/LongMugItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/long_mug.json"
+        ]
+      },
+      "path": "~/Coffee/Lungo"
+    },
+    {
+      "name": "GrinderButtonGrindProcedure",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_button_grind_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderButtonGrindProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "CoffeeMakerBlack",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_maker_black.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeeMakerBlackBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_maker_black.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_maker_black.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeMakerBlackBlock.java"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffeeMakerWhite",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeMakerWhiteBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_maker_white.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_maker_white.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_maker_white.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeeMakerWhiteBlockEntity.java"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffeeMakerBlackCraft",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_black_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/coffee_maker_black_craft.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffeeMakerWhiteCraft",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_white_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/coffee_maker_white_craft.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffeeMakerBlackEmpty",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_black_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_maker_black_empty.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_maker_black_empty.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeMakerBlackEmptyBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeeMakerBlackEmptyBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_maker_black_empty.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffeeMakerWhiteEmpty",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_maker_white_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeMakerWhiteEmptyBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_maker_white_empty.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeeMakerWhiteEmptyBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_maker_white_empty.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_maker_white_empty.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "CoffePlantStage3Bottom",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffe_plant_stage_3_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffe_plant_stage_3_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffePlantStage3BottomBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffe_plant_stage_3_bottom.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffe_plant_stage_3_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffePlantStage3BottomBlockEntity.java"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage3Top",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_3_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage3TopBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage3TopBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_3_top.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_3_top.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_3_top.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage4Bottom",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_4_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_4_bottom.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_4_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage4BottomBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage4BottomBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_4_bottom.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage4Top",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_4_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_4_top.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_4_top.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage4TopBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage4TopBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_4_top.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage5Bottom",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_5_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_5_bottom.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_5_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage5BottomBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_5_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage5BottomBlockEntity.java"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage5Top",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_5_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage5TopBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage5TopBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_5_top.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_5_top.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_5_top.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage6Bottom",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_6_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_6_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage6BottomBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_6_bottom.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage6BottomBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_6_bottom.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage6Top",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_6_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage6TopBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_6_top.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_6_top.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage6TopBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_6_top.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CornBottom",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffee/tags/blocks/corn_bottom.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CornTop",
+      "type": "tag",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffee/tags/blocks/corn_top.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantTopConditionDePlacementValideDeBlocProcedure",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_top_condition_de_placement_valide_de_bloc_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantTopConditionDePlacementValideDeBlocProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantBottomConditionDePlacementValideDeBlocProcedure",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_bottom_condition_de_placement_valide_de_bloc_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantBottomConditionDePlacementValideDeBlocProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CornPlantBottomBlockDestroyed",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn_plant_bottom_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CornPlantBottomBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CornPlantTopBlockDestroyed",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn_plant_top_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CornPlantTopBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "Coffeeplantstage6bottomloot",
+      "type": "loottable",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffeeplantstage_6bottomloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/loot_tables/blocks/coffee_plant_stage_6_bottom.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage6TopLorsDunClicDroitSurLeBlocProcedure",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_6_top_lors_dun_clic_droit_sur_le_bloc_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantStage6TopLorsDunClicDroitSurLeBlocProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage6BottomLorsDunClicDroitSurLeBlocProcedure",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_6_bottom_lors_dun_clic_droit_sur_le_bloc_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeePlantStage6BottomLorsDunClicDroitSurLeBlocProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlant",
+      "type": "plant",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant.json",
+          "src/main/resources/data/coffeecraft/worldgen/placed_feature/coffee_plant.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_bottom.json",
+          "src/main/resources/data/coffeecraft/worldgen/configured_feature/coffee_plant.json",
+          "src/main/resources/data/coffeecraft/forge/biome_modifier/coffee_plant_biome_modifier.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CoffeePlantStage2",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_plant_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePlantStage2Block.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_plant_stage_2.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_plant_stage_2.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeePlantStage2BlockEntity.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_plant_stage_2.json"
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "GrinderDisplay1",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderDisplay2",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderDisplay3",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_display_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderDisplay3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderDisplay4",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_display_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderDisplay4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "GrinderGUIPendantQueCeGUIEstOuvertParTick",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui_pendant_que_ce_gui_est_ouvert_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/GrinderGUIPendantQueCeGUIEstOuvertParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "CoffeeCraft",
+      "type": "tab",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CoffeeCarrotBloc",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_carrot_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_carrot_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_carrot_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_carrot_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeCarrotBlocBlock.java"
+        ]
+      },
+      "path": "~/Coffee/Carrot"
+    },
+    {
+      "name": "CoffeeCarrot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_carrot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeCarrotItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_carrot.json"
+        ]
+      },
+      "path": "~/Coffee/Carrot"
+    },
+    {
+      "name": "CoffeeCarrotPose",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_carrot_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeCarrotPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Carrot"
+    },
+    {
+      "name": "CoffeeSmokeDefault",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_smoke_default",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSmokeDefaultProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee"
+    },
+    {
+      "name": "CoffeeCarrotEffect",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_carrot_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeCarrotEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Carrot"
+    },
+    {
+      "name": "ExpressoBloc",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expresso_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/expresso_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/expresso_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/expresso_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/ExpressoBlocBlock.java"
+        ]
+      },
+      "path": "~/Coffee/Expresso"
+    },
+    {
+      "name": "ExpressoPose",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expresso_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ExpressoPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Expresso"
+    },
+    {
+      "name": "ExpressoEffect",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expresso_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ExpressoEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Expresso"
+    },
+    {
+      "name": "LungoBloc",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lungo_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/lungo_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/lungo_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/lungo_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/LungoBlocBlock.java"
+        ]
+      },
+      "path": "~/Coffee/Lungo"
+    },
+    {
+      "name": "LungoPose",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lungo_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/LungoPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Lungo"
+    },
+    {
+      "name": "LungoEffect",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lungo_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/LungoEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Lungo"
+    },
+    {
+      "name": "EndCoffeeBloc",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_coffee_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/end_coffee_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/EndCoffeeBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/end_coffee_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/end_coffee_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/End"
+    },
+    {
+      "name": "EndCoffee",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_coffee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/end_coffee.json",
+          "src/main/java/net/mcreator/coffeecraft/item/EndCoffeeItem.java"
+        ]
+      },
+      "path": "~/Coffee/End"
+    },
+    {
+      "name": "CoffeeEndPose",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_end_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeEndPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/End"
+    },
+    {
+      "name": "CoffeeEndEffect",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_end_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeEndEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/End"
+    },
+    {
+      "name": "CoffeeSmokeEnd",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_smoke_end",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSmokeEndProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/End"
+    },
+    {
+      "name": "CoffeeEggBloc",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_egg_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_egg_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_egg_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeEggBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_egg_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Egg"
+    },
+    {
+      "name": "CoffeeEgg",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeEggItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_egg.json"
+        ]
+      },
+      "path": "~/Coffee/Egg"
+    },
+    {
+      "name": "CoffeeEggPose",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_egg_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeEggPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Egg"
+    },
+    {
+      "name": "CoffeeEggEffect",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_egg_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeEggEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Egg"
+    },
+    {
+      "name": "CoffeeIcedBloc",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_iced_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeIcedBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_iced_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_iced_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_iced_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Iced"
+    },
+    {
+      "name": "CoffeeIced",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_iced",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_iced.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeIcedItem.java"
+        ]
+      },
+      "path": "~/Coffee/Iced"
+    },
+    {
+      "name": "CoffeeIcedPose",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_iced_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeIcedPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Iced"
+    },
+    {
+      "name": "CoffeeIcedEffect",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_iced_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeIcedEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Iced"
+    },
+    {
+      "name": "CoffeeNetherBloc",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_nether_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_nether_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeNetherBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_nether_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_nether_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Nether"
+    },
+    {
+      "name": "CoffeeNether",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_nether",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_nether.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeNetherItem.java"
+        ]
+      },
+      "path": "~/Coffee/Nether"
+    },
+    {
+      "name": "CoffeeNetherPose",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_nether_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeNetherPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Nether"
+    },
+    {
+      "name": "CoffeeNetherEffect",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_nether_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeNetherEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Nether"
+    },
+    {
+      "name": "CoffeeSmokeNether",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_smoke_nether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSmokeNetherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Nether"
+    },
+    {
+      "name": "CoffeeHoneyBloc",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_honey_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_honey_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeHoneyBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_honey_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_honey_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Honey"
+    },
+    {
+      "name": "CoffeeHoney",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_honey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_honey.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeHoneyItem.java"
+        ]
+      },
+      "path": "~/Coffee/Honey"
+    },
+    {
+      "name": "CoffeeHoneyPose",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_honey_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeHoneyPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Honey"
+    },
+    {
+      "name": "CoffeeHoneyEffect",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_honey_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeHoneyEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Honey"
+    },
+    {
+      "name": "CoffeeMochaBloc",
+      "type": "block",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mocha_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_mocha_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_mocha_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_mocha_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeMochaBlocBlock.java"
+        ]
+      },
+      "path": "~/Coffee/Mocha"
+    },
+    {
+      "name": "CoffeeMocha",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mocha",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_mocha.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeMochaItem.java"
+        ]
+      },
+      "path": "~/Coffee/Mocha"
+    },
+    {
+      "name": "CoffeeMochaPose",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mocha_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMochaPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Mocha"
+    },
+    {
+      "name": "CoffeeMochaEffect",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mocha_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeMochaEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Mocha"
+    },
+    {
+      "name": "CoffeeCappuccinoBloc",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cappuccino_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeCappuccinoBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_cappuccino_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_cappuccino_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_cappuccino_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Cappuccino"
+    },
+    {
+      "name": "CoffeeCappuccino",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cappuccino",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeCappuccinoItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_cappuccino.json"
+        ]
+      },
+      "path": "~/Coffee/Cappuccino"
+    },
+    {
+      "name": "CoffeeCappuccinoPose",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cappuccino_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeCappuccinoPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Cappuccino"
+    },
+    {
+      "name": "CoffeeCappuccinoEffect",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cappuccino_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeCappuccinoEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Cappuccino"
+    },
+    {
+      "name": "ProcedureRemoveItemSlot",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_remove_item_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProcedureRemoveItemSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeMaker/Procedure"
+    },
+    {
+      "name": "Croissant",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "croissant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/croissant.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CroissantItem.java"
+        ]
+      },
+      "path": "~/Decoration/Food"
+    },
+    {
+      "name": "Coffee",
+      "type": "painting",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "CoffeeHouse",
+      "type": "painting",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_house",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "InsideCoffee",
+      "type": "painting",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inside_coffee",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "CoffeeNoel",
+      "type": "painting",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_noel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "CoffeeMorning",
+      "type": "painting",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_morning",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "CoffeePancarte",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_pancarte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeePancarteBlock.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_pancarte.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_pancarte.json",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_pancarte.json"
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeePancarte"
+    },
+    {
+      "name": "BagCoffeeCraft",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeeCraft2",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_craft_2.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "CroissantCraft",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "croissant_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/croissant_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Food"
+    },
+    {
+      "name": "CoffeePancarteCraft",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_pancarte_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/coffee_pancarte_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeePancarte"
+    },
+    {
+      "name": "Barista",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barista",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/BaristaItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/barista_chestplate.json"
+        ]
+      },
+      "path": "~/Decoration/Outfit"
+    },
+    {
+      "name": "BaristaCraft",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barista_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/barista_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Outfit"
+    },
+    {
+      "name": "BagCoffeeRoasted",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_roasted",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/bag_coffee_roasted.json",
+          "src/main/resources/assets/coffeecraft/blockstates/bag_coffee_roasted.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BagCoffeeRoastedBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/bag_coffee_roasted.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeeBean",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_bean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/BagCoffeeBeanBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/bag_coffee_bean.json",
+          "src/main/resources/assets/coffeecraft/blockstates/bag_coffee_bean.json",
+          "src/main/resources/assets/coffeecraft/models/item/bag_coffee_bean.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeeBeanCraft",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_bean_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_bean_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeeBeanCraft2",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_bean_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_bean_craft_2.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "CoffeeCup1952",
+      "type": "painting",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_cup_1952",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "JustCoffeePlease",
+      "type": "painting",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "just_coffee_please",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "MenuBreakFast",
+      "type": "painting",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu_break_fast",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decoration/Painting"
+    },
+    {
+      "name": "BagCoffeePowder",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/blockstates/bag_coffee_powder.json",
+          "src/main/java/net/mcreator/coffeecraft/block/BagCoffeePowderBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/bag_coffee_powder.json",
+          "src/main/resources/assets/coffeecraft/models/block/bag_coffee_powder.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeePowderCraft",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_powder_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_powder_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "BagCoffeePowderCraft2",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_powder_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/bag_coffee_powder_craft_2.json"
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "CroissantBloc",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "croissant_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/croissant_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/croissant_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CroissantBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/croissant_bloc.json"
+        ]
+      },
+      "path": "~/Decoration/Food"
+    },
+    {
+      "name": "CroissantPose",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "croissant_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CroissantPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Food"
+    },
+    {
+      "name": "CoffeeCoffreGUI",
+      "type": "gui",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_coffre_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/world/inventory/CoffeeCoffreGUIMenu.java",
+          "src/main/java/net/mcreator/coffeecraft/client/gui/CoffeeCoffreGUIScreen.java"
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeeBox"
+    },
+    {
+      "name": "BaristaSmall",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barista_small",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/BaristaSmallItem.java",
+          "src/main/resources/assets/coffeecraft/models/item/barista_small_chestplate.json"
+        ]
+      },
+      "path": "~/Decoration/Outfit"
+    },
+    {
+      "name": "CoffeeFluid",
+      "type": "fluid",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeFluidItem.java",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeFluidBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/fluid/types/CoffeeFluidFluidType.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_fluid.json",
+          "src/main/java/net/mcreator/coffeecraft/fluid/CoffeeFluidFluid.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_fluid.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_fluid_bucket.json"
+        ]
+      },
+      "path": "~/CoffeeFluid"
+    },
+    {
+      "name": "CoffeeFluidFog",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_fluid_fog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeFluidFogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeFluid"
+    },
+    {
+      "name": "CoffeeFluidFogColor",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_fluid_fog_color",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeFluidFogColorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeFluid"
+    },
+    {
+      "name": "TagCoffeeMaker",
+      "type": "tag",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tag_coffee_maker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tag_coffee_maker.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "RoasterAnimated",
+      "type": "animatedblock",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_animated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/renderer/RoasterAnimatedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/coffeecraft/block/RoasterAnimatedBlock.java",
+          "src/main/java/net/mcreator/coffeecraft/block/renderer/RoasterAnimatedTileRenderer.java",
+          "src/main/java/net/mcreator/coffeecraft/block/model/RoasterAnimatedDisplayModel.java",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/RoasterAnimatedTileEntity.java",
+          "src/main/resources/assets/coffeecraft/blockstates/roaster_animated.json",
+          "src/main/resources/assets/coffeecraft/models/item/roaster_animated.json",
+          "src/main/java/net/mcreator/coffeecraft/block/display/RoasterAnimatedDisplayItem.java",
+          "src/main/resources/assets/coffeecraft/models/custom/roaster_animated_particle.json",
+          "src/main/java/net/mcreator/coffeecraft/block/model/RoasterAnimatedBlockModel.java"
+        ]
+      },
+      "path": "~/Roaster"
+    },
+    {
+      "name": "RoasterAnimatedLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_animated_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoasterAnimatedLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster"
+    },
+    {
+      "name": "GrinderAnim",
+      "type": "animatedblock",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_anim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/block/renderer/GrinderAnimTileRenderer.java",
+          "src/main/java/net/mcreator/coffeecraft/block/model/GrinderAnimBlockModel.java",
+          "src/main/resources/assets/coffeecraft/models/custom/grinder_anim_particle.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/GrinderAnimTileEntity.java",
+          "src/main/java/net/mcreator/coffeecraft/block/display/GrinderAnimDisplayItem.java",
+          "src/main/java/net/mcreator/coffeecraft/block/model/GrinderAnimDisplayModel.java",
+          "src/main/resources/assets/coffeecraft/blockstates/grinder_anim.json",
+          "src/main/java/net/mcreator/coffeecraft/block/renderer/GrinderAnimDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/coffeecraft/block/GrinderAnimBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/grinder_anim.json"
+        ]
+      },
+      "path": "~/Grinder"
+    },
+    {
+      "name": "CoffeeFluidHit",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_fluid_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeFluidHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeFluid"
+    },
+    {
+      "name": "CoffeeFluidMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_fluid_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeFluidMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoffeeFluid"
+    },
+    {
+      "name": "BagCoffeePose",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bag_coffee_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/BagCoffeePoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Block/BagCoffee"
+    },
+    {
+      "name": "CoffeeSweetLungoBloc",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_lungo_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_sweet_lungo_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeSweetLungoBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/block/coffee_sweet_lungo_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_sweet_lungo_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Sweet Lungo"
+    },
+    {
+      "name": "CoffeeSweetLungo",
+      "type": "item",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_lungo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_sweet_lungo.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeSweetLungoItem.java"
+        ]
+      },
+      "path": "~/Coffee/Sweet Lungo"
+    },
+    {
+      "name": "CoffeeSweetLungoPose",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_lungo_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSweetLungoPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Sweet Lungo"
+    },
+    {
+      "name": "CoffeeSweetLungoEffect",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_lungo_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSweetLungoEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Sweet Lungo"
+    },
+    {
+      "name": "CoffeeSweetExpressoBloc",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_expresso_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_sweet_expresso_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeSweetExpressoBlocBlock.java",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_sweet_expresso_bloc.json",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_sweet_expresso_bloc.json"
+        ]
+      },
+      "path": "~/Coffee/Sweet Expresso"
+    },
+    {
+      "name": "CoffeeSweetExpresso",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_expresso",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/item/coffee_sweet_expresso.json",
+          "src/main/java/net/mcreator/coffeecraft/item/CoffeeSweetExpressoItem.java"
+        ]
+      },
+      "path": "~/Coffee/Sweet Expresso"
+    },
+    {
+      "name": "CoffeeSweetExpressoPose",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_expresso_pose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSweetExpressoPoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Sweet Expresso"
+    },
+    {
+      "name": "CoffeeSweetExpressoEffect",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_sweet_expresso_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/CoffeeSweetExpressoEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Coffee/Sweet Expresso"
+    },
+    {
+      "name": "BaristaSmallCraft",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barista_small_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/barista_small_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Outfit"
+    },
+    {
+      "name": "CoffeeBoxBloc",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_box_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coffeecraft/models/block/coffee_box_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/entity/CoffeeBoxBlocBlockEntity.java",
+          "src/main/resources/assets/coffeecraft/blockstates/coffee_box_bloc.json",
+          "src/main/resources/assets/coffeecraft/models/item/coffee_box_bloc.json",
+          "src/main/java/net/mcreator/coffeecraft/block/CoffeeBoxBlocBlock.java"
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeeBox"
+    },
+    {
+      "name": "ProcedureCoffeeBoxOpen",
+      "type": "procedure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_coffee_box_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/ProcedureCoffeeBoxOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeeBox"
+    },
+    {
+      "name": "CoffeeBoxCraft",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_box_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coffeecraft/recipes/coffee_box_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Block/CoffeeBox"
+    },
+    {
+      "name": "CoffeeMug",
+      "type": "tag",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/coffee_mug.json"
+        ]
+      },
+      "path": "~/Mugs"
+    },
+    {
+      "name": "CoffeeBucket",
+      "type": "tag",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_bucket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/coffee_bucket.json"
+        ]
+      },
+      "path": "~/CoffeeMaker"
+    },
+    {
+      "name": "RoasterRemoveItemSlot",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roaster_remove_item_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coffeecraft/procedures/RoasterRemoveItemSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Roaster/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "drink_coffee",
+      "files": [
+        "sound-effect"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "roaster",
+      "files": [
+        "roaster"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "coffee_sound_effect",
+      "files": [
+        "coffee-sound-effect"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "grinder",
+      "files": [
+        "grinder-mono"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "coffee_coffre_open",
+      "files": [
+        "coffeecoffreopen"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "coffee_bag",
+      "files": [
+        "coffee_bag"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.coffeecraft.purple_mug_3": "Purple Mug",
+      "block.coffeecraft.purple_mug_2": "Purple Mug",
+      "block.coffeecraft.white_mug_2": "White Mug",
+      "block.coffeecraft.coffee_egg_bloc": "Coffee Bloc",
+      "block.coffee.orange_mug": "Orange Mug",
+      "block.coffeecraft.white_mug_3": "White Mug",
+      "item.coffee.coffee_iced": "Iced Coffee",
+      "item.coffeecraft.coffee_sweet_expresso": "Sweet Expresso",
+      "item.coffeecraft.barista_chestplate": "Plastron Barista",
+      "item.coffee.long_mug": "Lungo",
+      "item.coffeecraft.end_coffee": "End Coffee",
+      "item.coffee.coffee_nether": "Nether Coffee",
+      "block.coffeecraft.lime_mug_3": "Lime Mug",
+      "item.coffeecraft.coffee_fluid_bucket": "Coffee Fluid Bucket",
+      "block.coffee.terracotta_mug": "Terracotta Mug",
+      "painting.coffeecraft.inside_coffee.author": "CoffeeCraft",
+      "block.coffee.coffee_plant_stage_6_bottom": "Coffee Plant Stage 0",
+      "item.coffeecraft.barista_small_chestplate": "Plastron Barista",
+      "block.coffeecraft.lime_mug_2": "Lime Mug",
+      "block.coffee.coffee_plant_stage_4_bottom": "Coffee Plant Stage 0",
+      "painting.coffeecraft.coffee_house.title": "Coffee Housse",
+      "fluid.coffeecraft.coffee_fluid": "Coffee Fluid",
+      "block.coffeecraft.orange_mug_2": "Terracotta Mug",
+      "block.coffeecraft.orange_mug_3": "Orange Mug",
+      "item.coffee.coffee_sweat_expresso": "Sweat Expresso",
+      "item.coffee.barista_small_helmet": "Casquette Barista",
+      "subtitles.roaster": "",
+      "block.coffee.coffe_plant_stage_3_bottom": "Coffee Plant Stage 0",
+      "block.coffee.coffee_egg_bloc": "Coffee Bloc",
+      "item.coffee.coffee_cappuccino": "Cappuccino Coffee",
+      "item.coffee.coffee_cherry": "Coffee Cherry",
+      "item.coffee.coffee_carrot": "Carrot Coffee",
+      "block.coffee.coffee_mocha_bloc": "Coffee Bloc",
+      "block.coffeecraft.coffee_plant_stage_3_top": "Coffee Plant Stage 0",
+      "block.coffeecraft.coffee_sweet_lungo_bloc": "Coffee Bloc",
+      "painting.coffee.coffee_morning.title": "Coffee Morning",
+      "block.coffee.black_mug": "Black Mug",
+      "block.coffeecraft.magenta_mug_2": "Magenta Mug",
+      "block.coffeecraft.magenta_mug_3": "Magenta Mug",
+      "subtitles.coffee_sound_effect": "",
+      "block.coffeecraft.green_mug": "Green Mug",
+      "gui.coffee.recipe_book_pdg_gui.label_espresso_a_concentrated_shot_o": " Espresso, a",
+      "block.coffeecraft.coffee_plant_stage_6_top": "Coffee Plant Stage 0",
+      "block.coffee.coffee_plant_stage_4_top": "Coffee Plant Stage 0",
+      "block.coffee.red_mug_3": "Terracotta Mug",
+      "block.coffee.cyan_mug": "Cyan Mug",
+      "block.coffee.coffee_honey_bloc": "Coffee Bloc",
+      "block.coffee.red_mug_2": "Red Mug",
+      "block.coffeecraft.white_mug": "White Mug",
+      "block.coffeecraft.light_blue_mug": "Light Blue Mug",
+      "painting.coffee.coffee_house.author": "CoffeeCraft",
+      "block.coffee.roaster": "Roaster",
+      "block.coffee.coffee_cappuccino_bloc": "Coffee Bloc",
+      "item.coffee.coffee_powder": "Coffee Powder",
+      "item.coffeecraft.coffee_iced": "Iced Coffee",
+      "block.coffeecraft.coffee_mocha_bloc": "Coffee Bloc",
+      "block.coffeecraft.bag_coffee_bean": "Coffee Bean Bag",
+      "item.coffeecraft.coffee_nether": "Nether Coffee",
+      "block.coffee.cyan_mug_3": "Cyan Mug",
+      "gui.coffee.recipe_book_pdg_gui.label_slowly_and_savor_the_intense_ve": "slowly and savor the intense, velvety taste that defines this beloved classic",
+      "block.coffeecraft.grinder": "Grinder",
+      "block.coffee.pink_mug": "Pink Mug",
+      "block.coffee.cyan_mug_2": "Cyan Mug",
+      "item_group.coffee.coffee_craft": "Coffee Craft",
+      "item.coffeecraft.coffee_bean_roasted": "Coffee Bean Roasted",
+      "gui.coffee.recipe_book_pdg_gui.label_rich_aroma_sip_slowly_and_savo": " rich aroma. Sip .",
+      "block.coffeecraft.cyan_mug_2": "Cyan Mug",
+      "gui.coffee.recipe_book_pdg_gui.label_of_bold_flavor_and_rich_aroma_s": "of bold flavor and",
+      "block.coffeecraft.cyan_mug_3": "Cyan Mug",
+      "block.coffee.purple_mug_2": "Purple Mug",
+      "block.coffee.purple_mug_3": "Purple Mug",
+      "block.coffeecraft.expresso_bloc": "Coffee Bloc",
+      "block.coffee.coffee_sweat_expresso_bloc": "Coffee Bloc",
+      "entity.minecraft.villager.coffee.barista_pnj": "Barista",
+      "block.coffeecraft.brown_mug": "Brown Mug",
+      "block.coffeecraft.purple_mug": "Purple Mug",
+      "block.coffee.end_coffee_bloc": "Coffee Bloc",
+      "gui.coffee.recipe_book_pdg_gui.label_concentrated_shot_of_bold_flavor": "concentrated shot",
+      "item.coffeecraft.coffee_mocha": "Mocha Coffee",
+      "item.coffeecraft.coffee_sweet_lungo": "Sweet Lungo",
+      "block.coffee.light_gray_mug": "Light Gray Mug",
+      "block.coffeecraft.pink_mug_3": "Pink Mug",
+      "block.coffeecraft.pink_mug_2": "Pink Mug",
+      "block.coffeecraft.orange_mug": "Orange Mug",
+      "block.coffeecraft.coffee_plant_stage_4_bottom": "Coffee Plant Stage 0",
+      "block.coffee.blue_mug_2": "Blue Mug",
+      "block.coffee.orange_mug_3": "Orange Mug",
+      "painting.coffee.coffee.author": "CoffeeCraft",
+      "block.coffee.coffee_pancarte": "Coffee Pancarte",
+      "block.coffee.blue_mug_3": "Blue Mug",
+      "block.coffee.orange_mug_2": "Terracotta Mug",
+      "block.coffee.bag_coffee_powder": "Coffee Powder Bag",
+      "item.coffee.barista_small_chestplate": "Plastron Barista",
+      "block.coffeecraft.gray_mug": "Gray Mug",
+      "block.coffeecraft.coffee_plant_stage_4_top": "Coffee Plant Stage 0",
+      "painting.coffeecraft.coffee_noel.author": "CoffeeCraft",
+      "block.coffee.coffee_iced_bloc": "Coffeefrappebloc",
+      "painting.coffee.just_coffee_please.author": "CoffeeCraft",
+      "item.coffee.coffee_bean": "Coffee Bean",
+      "block.coffeecraft.coffee_plant_stage_2": "Coffee Plant Stage 0",
+      "item.coffeecraft.coffee_carrot": "Carrot Coffee",
+      "painting.coffeecraft.just_coffee_please.title": "Just Coffee Please",
+      "block.coffeecraft.coffee_plant_stage_1": "Coffee Plant Stage 0",
+      "block.coffeecraft.bag_coffee_roasted": "Coffee Roasted Bag",
+      "block.coffee.coffee_maker_black": "Coffee Maker",
+      "painting.coffee.inside_coffee.author": "CoffeeCraft",
+      "block.coffeecraft.coffee_plant_stage_0": "Coffee Plant Stage 0",
+      "item.coffeecraft.coffee_cherry": "Coffee Cherry",
+      "subtitles.drink_coffee": "",
+      "block.coffeecraft.blue_mug_3": "Blue Mug",
+      "block.coffeecraft.coffee_iced_bloc": "Coffeefrappebloc",
+      "block.coffee.coffee_plant_stage_3_top": "Coffee Plant Stage 0",
+      "block.coffeecraft.blue_mug_2": "Blue Mug",
+      "painting.coffeecraft.menu_break_fast.title": "Menu Break Fast",
+      "item.coffeecraft.coffee_powder": "Coffee Powder",
+      "block.coffeecraft.coffee_honey_bloc": "Coffee Bloc",
+      "painting.coffee.just_coffee_please.title": "Just Coffee Please",
+      "block.coffee.red_mug": "Red Mug",
+      "block.coffee.expresso_bloc": "Coffee Bloc",
+      "block.coffeecraft.yellow_mug": "Yellow Mug",
+      "block.coffeecraft.lungo_bloc": "Coffee Bloc",
+      "block.coffee.coffee_sweat_lungo_bloc": "Coffee Bloc",
+      "block.coffee.lungo_bloc": "Coffee Bloc",
+      "block.coffee.yellow_mug": "Yellow Mug",
+      "block.coffeecraft.light_gray_mug": "Light Gray Mug",
+      "painting.coffeecraft.coffee_cup_1952.title": "Coffee Cup 1952",
+      "painting.coffee.coffee_morning.author": "CoffeeCraft",
+      "block.coffee.white_mug_3": "White Mug",
+      "painting.coffeecraft.coffee_cup_1952.author": "CoffeeCraft",
+      "block.coffeecraft.coffee_maker_black_empty": "Coffee Maker Black",
+      "block.coffeecraft.coffee_maker_white": "Coffee Maker",
+      "block.coffee.white_mug_2": "White Mug",
+      "block.coffee.green_mug": "Green Mug",
+      "block.coffee.bag_coffee_roasted": "Coffee Roasted Bag",
+      "block.coffeecraft.coffee_sweet_expresso_bloc": "Coffee Bloc",
+      "block.coffee.coffee_maker_white_empty": "Coffee Maker White",
+      "block.coffee.light_gray_mug_3": "Light Gray Mug",
+      "block.coffeecraft.red_mug": "Red Mug",
+      "block.coffee.light_gray_mug_2": "Light Gray Mug",
+      "item.coffee.coffee_mocha": "Mocha Coffee",
+      "item.coffee.coffee_fluid_bucket": "Coffee Fluid Bucket",
+      "block.coffee.terracotta_mug_3": "Terracotta Mug",
+      "block.coffee.coffee_coffre_bloc": "Coffee Coffre Bloc",
+      "block.coffee.terracotta_mug_2": "Terracotta Mug",
+      "block.coffeecraft.light_gray_mug_2": "Light Gray Mug",
+      "block.coffeecraft.light_gray_mug_3": "Light Gray Mug",
+      "block.coffeecraft.coffee_carrot_bloc": "Coffee Bloc",
+      "block.coffeecraft.red_mug_2": "Red Mug",
+      "block.coffeecraft.red_mug_3": "Terracotta Mug",
+      "block.coffee.white_mug": "White Mug",
+      "block.coffeecraft.bag_coffee_powder": "Coffee Powder Bag",
+      "block.coffeecraft.pink_mug": "Pink Mug",
+      "block.coffee.coffee_plant_stage_5_bottom": "Coffee Plant Stage 0",
+      "block.coffee.grinder": "Grinder",
+      "block.coffee.green_mug_2": "Green Mug",
+      "subtitles.coffee_coffre_open": "",
+      "block.coffee.green_mug_3": "Green Mug",
+      "block.coffeecraft.coffee_plant_stage_5_top": "Coffee Plant Stage 0",
+      "painting.coffeecraft.just_coffee_please.author": "CoffeeCraft",
+      "block.coffee.lime_mug": "Lime Mug",
+      "block.coffeecraft.coffee_nether_bloc": "Coffee Bloc",
+      "block.coffee.pink_mug_2": "Pink Mug",
+      "painting.coffeecraft.coffee_morning.title": "Coffee Morning",
+      "block.coffee.pink_mug_3": "Pink Mug",
+      "painting.coffeecraft.coffee_house.author": "CoffeeCraft",
+      "item.coffee.coffee_honey": "Honey  Coffee",
+      "block.coffee.gray_mug": "Gray Mug",
+      "painting.coffee.coffee_house.title": "Coffee Housse",
+      "item.coffeecraft.long_mug": "Lungo",
+      "block.coffee.brown_mug_2": "Brown Mug",
+      "block.coffee.brown_mug_3": "Brown Mug",
+      "painting.coffeecraft.coffee.author": "CoffeeCraft",
+      "block.coffee.purple_mug": "Purple Mug",
+      "block.coffeecraft.terracotta_mug_2": "Terracotta Mug",
+      "block.coffeecraft.terracotta_mug_3": "Terracotta Mug",
+      "block.coffee.coffee_plant": "Coffee Plant",
+      "item.coffeecraft.coffee_egg": "Egg Coffee",
+      "block.coffeecraft.light_blue_mug_2": "Light Blue Mug",
+      "block.coffee.light_blue_mug": "Light Blue Mug",
+      "painting.coffee.coffee_cup_1952.title": "Coffee Cup 1952",
+      "block.coffeecraft.light_blue_mug_3": "Light Blue Mug",
+      "painting.coffeecraft.coffee_noel.title": "Coffee Noel",
+      "painting.coffeecraft.menu_break_fast.author": "CoffeeCraft",
+      "block.coffeecraft.coffee_maker_black": "Coffee Maker",
+      "block.coffee.brown_mug": "Brown Mug",
+      "block.coffee.coffee_plant_stage_2": "Coffee Plant Stage 0",
+      "block.coffee.coffee_plant_stage_1": "Coffee Plant Stage 0",
+      "block.coffee.blue_mug": "Blue Mug",
+      "block.coffee.coffee_plant_stage_0": "Coffee Plant Stage 0",
+      "block.coffeecraft.coffee_plant": "Coffee Plant",
+      "painting.coffee.coffee_noel.author": "CoffeeCraft",
+      "block.coffee.lime_mug_2": "Lime Mug",
+      "block.coffee.light_blue_mug_3": "Light Blue Mug",
+      "block.coffeecraft.terracotta_mug": "Terracotta Mug",
+      "block.coffeecraft.coffee_plant_stage_5_bottom": "Coffee Plant Stage 0",
+      "block.coffee.lime_mug_3": "Lime Mug",
+      "block.coffee.light_blue_mug_2": "Light Blue Mug",
+      "item.coffeecraft.coffee_cappuccino": "Cappuccino Coffee",
+      "block.coffee.coffee_fluid": "Coffee Fluid",
+      "block.coffee.coffee_plant_stage_6_top": "Coffee Plant Stage 0",
+      "block.coffeecraft.black_mug": "Black Mug",
+      "painting.coffee.menu_break_fast.title": "Menu Break Fast",
+      "block.coffee.bag_coffee_bean": "Coffee Bean Bag",
+      "block.coffeecraft.coffe_plant_stage_3_bottom": "Coffee Plant Stage 0",
+      "block.coffeecraft.lime_mug": "Lime Mug",
+      "painting.coffeecraft.inside_coffee.title": "Inside Coffee",
+      "painting.coffee.coffee.title": "Coffee",
+      "painting.coffee.menu_break_fast.author": "CoffeeCraft",
+      "block.coffee.magenta_mug": "Magenta Mug",
+      "painting.coffeecraft.coffee_morning.author": "CoffeeCraft",
+      "item.coffee.end_coffee": "End Coffee",
+      "block.coffeecraft.end_coffee_bloc": "Coffee Bloc",
+      "block.coffee.magenta_mug_2": "Magenta Mug",
+      "block.coffeecraft.magenta_mug": "Magenta Mug",
+      "block.coffeecraft.roaster": "Roaster",
+      "block.coffee.magenta_mug_3": "Magenta Mug",
+      "gui.coffee.recipe_book_pdg_gui.label_experience_the_essence_of_pure_c": "Experience the essence",
+      "fluid.coffee.coffee_fluid": "Coffee Fluid",
+      "item.coffee.croissant": "Croissant",
+      "block.coffeecraft.black_mug_2": "Black Mug",
+      "item.coffee.coffee_bean_roasted": "Coffee Bean Roasted",
+      "item.coffee.coffee_egg": "Egg Coffee",
+      "block.coffee.coffee_nether_bloc": "Coffee Bloc",
+      "block.coffeecraft.coffee_cappuccino_bloc": "Coffee Bloc",
+      "block.coffeecraft.coffee_plant_stage_6_bottom": "Coffee Plant Stage 0",
+      "item.coffeecraft.coffee_honey": "Honey  Coffee",
+      "block.coffeecraft.gray_mug_3": "Gray Mug",
+      "block.coffee.coffee_carrot_bloc": "Coffee Bloc",
+      "block.coffeecraft.gray_mug_2": "Gray Mug",
+      "subtitles.grinder": "",
+      "block.coffeecraft.black_mug_3": "Terracotta Mug",
+      "item.coffee.coffee_sweat_lungo": "Sweat Lungo",
+      "item.coffeecraft.croissant": "Croissant",
+      "block.coffee.croissant_bloc": "Croissant Bloc",
+      "block.coffee.gray_mug_2": "Gray Mug",
+      "block.coffeecraft.yellow_mug_3": "Yellow Mug",
+      "block.coffeecraft.yellow_mug_2": "Yellow Mug",
+      "block.coffeecraft.cyan_mug": "Cyan Mug",
+      "block.coffeecraft.coffee_pancarte": "Coffee Pancarte",
+      "block.coffee.gray_mug_3": "Gray Mug",
+      "block.coffeecraft.coffee_fluid": "Coffee Fluid",
+      "block.coffee.coffee_maker_black_empty": "Coffee Maker Black",
+      "painting.coffee.coffee_noel.title": "Coffee Noel",
+      "item.coffee.barista_chestplate": "Plastron Barista",
+      "block.coffee.frame_coffee": "Frame Coffee",
+      "item_group.coffeecraft.coffee_craft": "Coffee Craft",
+      "block.coffee.yellow_mug_3": "Yellow Mug",
+      "block.coffee.yellow_mug_2": "Yellow Mug",
+      "painting.coffee.coffee_cup_1952.author": "CoffeeCraft",
+      "item.coffee.short_mug": "Expresso",
+      "block.coffee.coffee_plant_stage_5_top": "Coffee Plant Stage 0",
+      "block.coffee.coffee_maker_white": "Coffee Maker",
+      "block.coffeecraft.croissant_bloc": "Croissant Bloc",
+      "block.coffee.black_mug_2": "Black Mug",
+      "block.coffee.black_mug_3": "Terracotta Mug",
+      "subtitles.coffee_bag": "",
+      "block.coffeecraft.coffee_box_bloc": "Coffee Box",
+      "block.coffeecraft.green_mug_3": "Green Mug",
+      "block.coffeecraft.roaster_animated": "Roaster",
+      "gui.coffee.recipe_book_pdg_gui.label_pure_coffee_with_our_espresso_a": "pure coffee with our",
+      "item.coffeecraft.coffee_bean": "Coffee Bean",
+      "item.coffeecraft.short_mug": "Expresso",
+      "painting.coffeecraft.coffee.title": "Coffee",
+      "block.coffeecraft.green_mug_2": "Green Mug",
+      "block.coffeecraft.brown_mug_3": "Brown Mug",
+      "block.coffeecraft.brown_mug_2": "Brown Mug",
+      "painting.coffee.inside_coffee.title": "Inside Coffee",
+      "block.coffeecraft.blue_mug": "Blue Mug",
+      "block.coffeecraft.coffee_maker_white_empty": "Coffee Maker White",
+      "block.coffeecraft.grinder_anim": "Grinder"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CoffeeMaker",
+        "children": [
+          {
+            "name": "Procedure",
+            "children": []
+          },
+          {
+            "name": "RecipeCoffee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crops",
+        "children": []
+      },
+      {
+        "name": "Roaster",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "GUI",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Grinder",
+        "children": []
+      },
+      {
+        "name": "Mugs",
+        "children": []
+      },
+      {
+        "name": "Coffee",
+        "children": [
+          {
+            "name": "Expresso",
+            "children": []
+          },
+          {
+            "name": "Carrot",
+            "children": []
+          },
+          {
+            "name": "Lungo",
+            "children": []
+          },
+          {
+            "name": "Egg",
+            "children": []
+          },
+          {
+            "name": "End",
+            "children": []
+          },
+          {
+            "name": "Iced",
+            "children": []
+          },
+          {
+            "name": "Honey",
+            "children": []
+          },
+          {
+            "name": "Mocha",
+            "children": []
+          },
+          {
+            "name": "Nether",
+            "children": []
+          },
+          {
+            "name": "Cappuccino",
+            "children": []
+          },
+          {
+            "name": "Sweet Lungo",
+            "children": []
+          },
+          {
+            "name": "Sweet Expresso",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Decoration",
+        "children": [
+          {
+            "name": "Outfit",
+            "children": []
+          },
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Block",
+            "children": [
+              {
+                "name": "CoffeePancarte",
+                "children": []
+              },
+              {
+                "name": "BagCoffee",
+                "children": []
+              },
+              {
+                "name": "CoffeeBox",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Painting",
+            "children": []
+          },
+          {
+            "name": "Frame",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CoffeeFluid",
+        "children": []
+      },
+      {
+        "name": "JustEnoughItems",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "coffeecraft",
+    "modName": "CoffeeCraft",
+    "version": "1.0.0",
+    "author": "Victor Autheman, Rémi Bregeard",
+    "websiteURL": "https://autheman-victor.fr",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "patchouli",
+      "geckolib"
+    ],
+    "dependencies": [
+      "patchouli",
+      "geckolib"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "patchouli",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.coffeecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

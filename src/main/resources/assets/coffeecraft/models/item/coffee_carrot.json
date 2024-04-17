@@ -1,0 +1,11 @@
+{
+  "parent": "coffeecraft:custom/carotte-coffee",
+  "textures": {
+    "1": "coffeecraft:block/texturecoffeecarrot",
+    "2": "coffeecraft:block/gold_block",
+    "3": "coffeecraft:block/feuille-carrot",
+    "4": "coffeecraft:block/orange_concrete",
+    "5": "coffeecraft:block/texturegoldline",
+    "particle": "coffeecraft:item/coffee_mug_lungo"
+  }
+}

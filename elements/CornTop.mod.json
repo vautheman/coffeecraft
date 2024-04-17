@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CoffeePlantStage3Top"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage4Top"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage5Top"
+      },
+      {
+        "value": "CUSTOM:CoffeePlantStage6Top"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "corn_top",
+    "namespace": "coffee"
+  }
+}
