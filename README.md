@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/logo.png" alt="Logo" width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/banner-curseforge.png" alt="Logo" width="400"></p>
 <h1 align="center">CoffeeCraft  <br>
 	<a href="https://patreon.com/BlockBrothers"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dblockbrothers%26type%3Dpatrons&style=flat&label=Supporters&color=ff5733" alt="Patreon"></a>
 	<a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers/files"><img src="https://cf.way2muchnoise.eu/versions/coffeecraft-by-blockbrothers.svg" alt="Supported Versions"></a>
@@ -40,4 +40,4 @@ We'd like to thank everyone that decides to donate, no matter how much. It is gr
 <p align="center"><a href="https://github.com/vautheman/coffeecraft/issues"><img src="https://i.imgur.com/qPmjSXy.png" width="160" /></a> <a href=""><img src="https://i.imgur.com/L1bU9mr.png" width="160" /></a><a href="https://discord.gg/pbTM6Rgpth"><img src="https://i.imgur.com/uf6V9ZX.png" width="160" /></a> <a href="https://github.com/vautheman/coffeecraft/wiki"><img src="https://i.imgur.com/TgvDvDm.png" width="160" /></a></p>
 
 <h1></h1>
-<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a></h4>
+<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a>or on <a href="https://modrinth.com/mod/coffeecraft-by-blockbrothers">Modrinth</a></h4>
