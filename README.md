@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/banner-curseforge.png" alt="Logo" width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/banner-curseforge.png" alt="Logo" width="100%"></p>
 <h1 align="center">CoffeeCraft  <br>
 	<a href="https://patreon.com/BlockBrothers"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dblockbrothers%26type%3Dpatrons&style=flat&label=Supporters&color=ff5733" alt="Patreon"></a>
 	<a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers/files"><img src="https://cf.way2muchnoise.eu/versions/coffeecraft-by-blockbrothers.svg" alt="Supported Versions"></a>
