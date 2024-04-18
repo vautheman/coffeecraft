@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/logo.png" alt="Logo" width="400"></p>
 <h1 align="center">CoffeeCraft  <br>
-	<a href="https://www.patreon.com/"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dsimibubi%26type%3Dpatrons&style=flat&label=Supporters&color=ff5733" alt="Patreon"></a>
+	<a href="https://patreon.com/BlockBrothers"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dblockbrothers%26type%3Dpatrons&style=flat&label=Supporters&color=ff5733" alt="Patreon"></a>
 	<a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers/files"><img src="https://cf.way2muchnoise.eu/versions/coffeecraft-by-blockbrothers.svg" alt="Supported Versions"></a>
 	<a href="https://github.com/vautheman/coffeecraft/blob/mc1.20.1/LICENSE"><img src="https://img.shields.io/github/license/vautheman/coffeecraft?style=flat&color=900c3f" alt="License"></a>
 	<a href="https://discord.gg/pbTM6Rgpth"><img src="https://img.shields.io/discord/1230072362213310515?color=5865f2&label=Discord&style=flat" alt="Discord"></a>
