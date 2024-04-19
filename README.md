@@ -44,8 +44,5 @@ Buymeacoffee is an online platform enabling content creators to receive donation
 We'd like to thank everyone that decides to donate, no matter how much. It is greatly appreciated that you put forth something to help us continue.
 
 ***
-
-<p align="center"><a href="https://github.com/vautheman/coffeecraft/issues"><img src="https://i.imgur.com/qPmjSXy.png" width="160" /></a> <a href=""><img src="https://i.imgur.com/L1bU9mr.png" width="160" /></a><a href="https://discord.gg/pbTM6Rgpth"><img src="https://i.imgur.com/uf6V9ZX.png" width="160" /></a> <a href="https://github.com/vautheman/coffeecraft/wiki"><img src="https://i.imgur.com/TgvDvDm.png" width="160" /></a></p>
-
-<h1></h1>
+<p><strong>Please let us know of any bugs you encounter or leave a comment to help us improve your experience. Your feedback is invaluable to us. Thank you in advance!</strong></p>
 <h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a> or on <a href="https://modrinth.com/mod/coffeecraft">Modrinth</a></h4>
