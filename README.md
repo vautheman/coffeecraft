@@ -12,6 +12,13 @@
 <p>Welcome to CoffeeCraft, a mod offering a variety of coffee-making tools and blocks. Become the barista of your dreams! 
 Explore coffee plants, create your own crops and transform your seeds into delicious coffee.</p>
 
+<p>We're two French friends with a passion for Minecraft and modding. We set ourselves the challenge of creating our very first mod. It's the fruit of many hours of research, exchanging ideas and hard work. We're proud of the result and hope you like it.</p>
+
+<h2>Installation Requirements</h2>
+<a href="https://files.minecraftforge.net/net/minecraftforge/forge/" rel="nofollow"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/tile-forge.png" alt="" width="150" height="150"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/geckolib" rel="nofollow"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/tile-geckolib.png" alt="" width="150" height="150"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/patchouli" rel="nofollow"><img src="https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/tile-patchouli.png" alt="" width="150" height="150"></a>
+
 ***
 
 Aside from bug reports, suggestions and pull requests, you can contribute to the CoffeeCraft endeavors by supporting us financially.
@@ -20,16 +27,17 @@ Please make donations only with the intent to **encourage the people who are wor
 
 ***
 
-![](https://camo.githubusercontent.com/ab9419ca3d94e21017ffcff07e70f3b0a9d5f9d6d9a20b66bb247d04d5da5597/68747470733a2f2f692e696d6775722e636f6d2f73694362565a712e706e67)
+![](https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/coffeecraft-patreon.png)
 
 Patreon is a great option to contribute with a monthly payment.
 Your support will be credited at the top of the Project Page and you will be granted access to an exclusive chatroom on the coffeecraft Discord for hanging out with fellow enthusiastic coffeecraft patrons, as well as the team.
 
 
 ***
-![](https://camo.githubusercontent.com/1c1ab2b4c02aded6bd7aef21de0e6553e8114875d7b716be13b3a6e52603c3af/68747470733a2f2f692e696d6775722e636f6d2f326c47414c49542e706e67)
+![](https://raw.githubusercontent.com/vautheman/coffeecraft/mc1.20.1/.assets/coffeecraft-buymeacoffee.png)
 
-Alternatively, you can send us some love with a little one-time donation on PayPal.
+Alternatively, you can send us some love with a little one-time donation on Buy me a coffee.
+Buymeacoffee is an online platform enabling content creators to receive donations from their audience to support their work.
 
 ***
 
@@ -40,4 +48,4 @@ We'd like to thank everyone that decides to donate, no matter how much. It is gr
 <p align="center"><a href="https://github.com/vautheman/coffeecraft/issues"><img src="https://i.imgur.com/qPmjSXy.png" width="160" /></a> <a href=""><img src="https://i.imgur.com/L1bU9mr.png" width="160" /></a><a href="https://discord.gg/pbTM6Rgpth"><img src="https://i.imgur.com/uf6V9ZX.png" width="160" /></a> <a href="https://github.com/vautheman/coffeecraft/wiki"><img src="https://i.imgur.com/TgvDvDm.png" width="160" /></a></p>
 
 <h1></h1>
-<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a>or on <a href="https://modrinth.com/mod/coffeecraft-by-blockbrothers">Modrinth</a></h4>
+<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a> or on <a href="https://modrinth.com/mod/coffeecraft-by-blockbrothers">Modrinth</a></h4>
