@@ -5,7 +5,7 @@
 	<a href="https://github.com/vautheman/coffeecraft/blob/mc1.20.1/LICENSE"><img src="https://img.shields.io/github/license/vautheman/coffeecraft?style=flat&color=900c3f" alt="License"></a>
 	<a href="https://discord.gg/pbTM6Rgpth"><img src="https://img.shields.io/discord/1230072362213310515?color=5865f2&label=Discord&style=flat" alt="Discord"></a>
 	<a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers/files"><img src="https://cf.way2muchnoise.eu/coffeecraft-by-blockbrothers.svg" alt="CF"></a>
-    <a href="https://modrinth.com/mod/coffeecraft-by-blockbrothers"><img src="https://img.shields.io/modrinth/dt/Q2nuGziu?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a>
+    	<a href="https://modrinth.com/mod/coffeecraft"><img src="https://img.shields.io/modrinth/dt/Q2nuGziu?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a>
     <br><br>
 </h1>
 
@@ -48,4 +48,4 @@ We'd like to thank everyone that decides to donate, no matter how much. It is gr
 <p align="center"><a href="https://github.com/vautheman/coffeecraft/issues"><img src="https://i.imgur.com/qPmjSXy.png" width="160" /></a> <a href=""><img src="https://i.imgur.com/L1bU9mr.png" width="160" /></a><a href="https://discord.gg/pbTM6Rgpth"><img src="https://i.imgur.com/uf6V9ZX.png" width="160" /></a> <a href="https://github.com/vautheman/coffeecraft/wiki"><img src="https://i.imgur.com/TgvDvDm.png" width="160" /></a></p>
 
 <h1></h1>
-<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a> or on <a href="https://modrinth.com/mod/coffeecraft-by-blockbrothers">Modrinth</a></h4>
+<h4 align="center">Find out more about coffeecraft on our <a href="https://www.curseforge.com/minecraft/mc-mods/coffeecraft-by-blockbrothers">Curseforge</a> or on <a href="https://modrinth.com/mod/coffeecraft">Modrinth</a></h4>
