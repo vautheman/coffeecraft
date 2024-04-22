@@ -80,7 +80,7 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 2,
     "generateFeature": true,
     "restrictionBiomes": [
       {
@@ -88,7 +88,7 @@
       }
     ],
     "generationType": "Grass",
-    "patchSize": 3,
+    "patchSize": 5,
     "generateAtAnyHeight": false
   }
 }

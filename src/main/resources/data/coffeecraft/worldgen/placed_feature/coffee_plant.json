@@ -2,6 +2,10 @@
   "feature": "coffeecraft:coffee_plant",
   "placement": [
     {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
